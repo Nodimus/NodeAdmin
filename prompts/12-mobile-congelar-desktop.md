@@ -1,0 +1,1 @@
+Regra permanente a partir de agora: o layout desktop (largura ≥ 1024px) NÃO pode ser alterado. Todo ajuste mobile fica em media queries `(max-width: 1023px)` ou em utilitários responsivos que preservem o estilo atual do desktop. Não renomeie componentes, não mude rotas nem lógica de dados. Antes de editar, liste os arquivos que pretende alterar; depois, resuma o que mudou.

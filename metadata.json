@@ -1,0 +1,6 @@
+{
+  "name": "Vinnes Admin - Gestão para Consultórios de Optometria",
+  "description": "Sistema completo de gestão clínica e administrativa para consultórios de optometria com prontuário eletrônico, exames de refração, agendamentos e controle financeiro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
