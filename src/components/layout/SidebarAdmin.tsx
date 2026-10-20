@@ -6,7 +6,6 @@ import {
   Users,
   Eye,
   FileText,
-  Boxes,
   DollarSign,
   Settings,
   LogOut,
@@ -15,6 +14,11 @@ import {
   ChevronRight,
   Database,
   UserCheck,
+  Shield,
+  History,
+  Building2,
+  LayoutTemplate,
+  Printer,
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useConsultorio } from '../../contexts/ConsultorioContext';
@@ -32,19 +36,25 @@ export const SidebarAdmin: React.FC<SidebarAdminProps> = ({
   mobileOpen,
   onCloseMobile,
 }) => {
-  const { user, logout, isFirebaseConnected } = useAuth();
+  const { user, logout, isFirebaseConnected, hasPermission } = useAuth();
   const { consultorio } = useConsultorio();
 
   const navItems = [
     { to: '/admin', label: 'Painel Geral', icon: LayoutDashboard, end: true },
-    { to: '/admin/agenda', label: 'Agenda & Consultas', icon: CalendarDays },
-    { to: '/admin/pacientes', label: 'Pacientes & Prontuários', icon: Users },
-    { to: '/admin/exames', label: 'Exames & Refração', icon: Eye },
-    { to: '/admin/prescricoes', label: 'Receituário Óptico', icon: FileText },
-    { to: '/admin/estoque', label: 'Estoque & Armações', icon: Boxes },
-    { to: '/admin/financeiro', label: 'Financeiro & Caixa', icon: DollarSign },
-    { to: '/admin/configuracoes', label: 'Dados do Consultório', icon: Settings },
+    { to: '/admin/agenda', label: 'Agenda & Consultas', icon: CalendarDays, perm: 'agenda.ler' },
+    { to: '/admin/pacientes', label: 'Pacientes & Prontuários', icon: Users, perm: 'pacientes.ler' },
+    { to: '/admin/exames', label: 'Exames & Refração', icon: Eye, perm: 'atendimento.ler' },
+    { to: '/admin/prescricoes', label: 'Receituário Óptico', icon: FileText, perm: 'receitas.ler' },
+    { to: '/admin/financeiro', label: 'Financeiro & Caixa', icon: DollarSign, perm: 'financeiro.ler' },
+    { to: '/admin/relatorios', label: 'Relatórios Impressos', icon: Printer, perm: 'relatorios.ler' },
+    { to: '/admin/usuarios', label: 'Equipe & Usuários', icon: UserCheck, perm: 'usuarios.ler' },
+    { to: '/admin/papeis', label: 'Papéis & Permissões', icon: Shield, perm: 'papeis.ler' },
+    { to: '/admin/auditoria', label: 'Trilha de Auditoria', icon: History, perm: 'auditoria.ler' },
+    { to: '/admin/empresa', label: 'Dados da Empresa', icon: Building2, perm: 'empresa.ler' },
+    { to: '/admin/home', label: 'Conteúdo da Home', icon: LayoutTemplate, perm: 'empresa.editar' },
   ];
+
+  const visibleNavItems = navItems.filter((item) => !item.perm || hasPermission(item.perm));
 
   return (
     <>
@@ -101,9 +111,9 @@ export const SidebarAdmin: React.FC<SidebarAdminProps> = ({
           </div>
         )}
 
-        {/* Lista de Navegação */}
+        {/* Lista de Navegação (Respeita permissões por papel) */}
         <nav className="flex-1 overflow-y-auto px-3 py-4 space-y-1">
-          {navItems.map((item) => {
+          {visibleNavItems.map((item) => {
             const Icon = item.icon;
             return (
               <NavLink

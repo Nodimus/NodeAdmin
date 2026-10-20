@@ -6,67 +6,104 @@ import {
   CalendarCheck,
   TrendingUp,
   Glasses,
-  FileText,
-  Activity,
+  Calendar,
+  AlertCircle,
+  Globe,
+  Clock,
   ArrowRight,
+  CheckCircle2,
+  XCircle,
+  MessageCircle,
+  ShieldCheck,
+  Lock,
+  RefreshCw,
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useConsultorio } from '../../contexts/ConsultorioContext';
-import { appointmentsService } from '../../services/appointments.service';
+import { appointmentsService, DashboardResponse } from '../../services/appointments.service';
 import { patientsService } from '../../services/patients.service';
 import { examsService } from '../../services/exams.service';
-import { financialService } from '../../services/financial.service';
 import { Appointment, Patient, Exam } from '../../types';
 import { formatCurrencyFromCents, formatDateBR } from '../../utils/formatters';
 
 export const DashboardPage: React.FC = () => {
-  const { user, isFirebaseConnected } = useAuth();
+  const { user, hasPermission, isFirebaseConnected } = useAuth();
   const { consultorio } = useConsultorio();
   const navigate = useNavigate();
 
+  const [dashboardData, setDashboardData] = useState<DashboardResponse | null>(null);
   const [appointments, setAppointments] = useState<Appointment[]>([]);
   const [patients, setPatients] = useState<Patient[]>([]);
   const [exams, setExams] = useState<Exam[]>([]);
-  const [financialSummary, setFinancialSummary] = useState({
-    totalIncomeInCents: 0,
-    totalExpenseInCents: 0,
-    balanceInCents: 0,
-    pendingCount: 0,
-  });
   const [loading, setLoading] = useState(true);
+  const [updatingId, setUpdatingId] = useState<string | null>(null);
+  const [feedbackMsg, setFeedbackMsg] = useState<{ tipo: 'sucesso' | 'erro'; texto: string } | null>(null);
+
+  const podeVerFinanceiro = hasPermission('financeiro.ler');
+  const podeEditarAgenda = hasPermission('agenda.editar');
+
+  const carregarDados = async () => {
+    setLoading(true);
+    try {
+      const [dash, apptsData, patsData, examsData] = await Promise.all([
+        appointmentsService.getDashboard(),
+        appointmentsService.getAll(),
+        patientsService.getAll(),
+        examsService.getAll(),
+      ]);
+      setDashboardData(dash);
+      setAppointments(apptsData);
+      setPatients(patsData);
+      setExams(examsData);
+    } catch (e) {
+      console.error('Erro ao carregar dados do painel:', e);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    async function loadDashboardData() {
-      try {
-        const [apptsData, patsData, examsData, finData] = await Promise.all([
-          appointmentsService.getAll(),
-          patientsService.getAll(),
-          examsService.getAll(),
-          financialService.getSummary(),
-        ]);
-        setAppointments(apptsData);
-        setPatients(patsData);
-        setExams(examsData);
-        setFinancialSummary(finData);
-      } catch (e) {
-        console.error('Erro ao carregar dados do painel:', e);
-      } finally {
-        setLoading(false);
-      }
-    }
-    loadDashboardData();
+    carregarDados();
   }, []);
 
-  const todayAppointments = appointments.filter((a) => a.date >= '2026-10-15');
+  const hojeStr = dashboardData?.dataAtual || new Date().toISOString().split('T')[0];
+  const consultasHoje = appointments.filter((a) => a.date === hojeStr);
+  const consultasPendentes = appointments.filter((a) => a.status === 'pendente');
+  const novosDoSite = appointments.filter((a) => a.origem === 'site');
 
-  const handleUpdateStatus = async (id: string, status: any) => {
+  const handleConfirmar = async (appt: Appointment) => {
+    setUpdatingId(appt.id);
     try {
-      const updated = await appointmentsService.updateStatus(id, status);
-      setAppointments((prev) =>
-        prev.map((item) => (item.id === id ? updated : item))
-      );
-    } catch (e) {
-      console.error(e);
+      const res = await appointmentsService.confirm(appt.id);
+      setFeedbackMsg({
+        tipo: 'sucesso',
+        texto: `Consulta de ${appt.patientName} confirmada com sucesso!`,
+      });
+      if (res.linkWhatsApp) {
+        window.open(res.linkWhatsApp, '_blank');
+      }
+      await carregarDados();
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Falha ao confirmar consulta.';
+      setFeedbackMsg({ tipo: 'erro', texto: msg });
+    } finally {
+      setUpdatingId(null);
+      setTimeout(() => setFeedbackMsg(null), 5000);
+    }
+  };
+
+  const handleMarcarAtendido = async (id: string) => {
+    setUpdatingId(id);
+    try {
+      await appointmentsService.markAttended(id);
+      setFeedbackMsg({ tipo: 'sucesso', texto: 'Consulta marcada como atendida!' });
+      await carregarDados();
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Falha ao atualizar status.';
+      setFeedbackMsg({ tipo: 'erro', texto: msg });
+    } finally {
+      setUpdatingId(null);
+      setTimeout(() => setFeedbackMsg(null), 4000);
     }
   };
 
@@ -82,160 +119,219 @@ export const DashboardPage: React.FC = () => {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/20 border border-teal-500/30 text-teal-300 text-xs font-semibold mb-3">
             <span className={`w-2 h-2 rounded-full ${isFirebaseConnected ? 'bg-emerald-400' : 'bg-cyan-400'}`} />
             <span>
-              {isFirebaseConnected ? 'Firebase Conectado' : 'Modo Demonstração (Dados Locais)'}
+              {isFirebaseConnected ? 'Firebase Conectado' : 'Sistema Local do Consultório'}
             </span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
             Olá, {user?.displayName || 'Doutor(a)'}!
           </h1>
           <p className="mt-2 text-slate-300 text-sm leading-relaxed">
-            Painel de gestão de <strong>{consultorio.nomeFantasia}</strong>.
-            Você possui <strong>{todayAppointments.length} consultas</strong> na agenda prioritária e <strong>{patients.length} pacientes</strong> cadastrados.
+            Painel Clínico de <strong>{consultorio.nomeFantasia}</strong>.
+            Você possui <strong>{consultasHoje.length} consultas</strong> agendadas para hoje e{' '}
+            <strong>{consultasPendentes.length} pendentes</strong> de confirmação.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
-            <button
-              onClick={() => navigate('/admin/exames?action=novo')}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-teal-500 hover:bg-teal-600 text-white font-bold text-xs shadow-md transition-all cursor-pointer"
-            >
-              <Eye className="w-4 h-4" />
-              <span>Novo Exame Refrativo</span>
-            </button>
+            {hasPermission('atendimento.criar') && (
+              <button
+                onClick={() => navigate('/admin/exames?action=novo')}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-teal-500 hover:bg-teal-600 text-white font-bold text-xs shadow-md transition-all cursor-pointer"
+              >
+                <Eye className="w-4 h-4" />
+                <span>Novo Exame Refrativo</span>
+              </button>
+            )}
             <button
               onClick={() => navigate('/admin/agenda')}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-xs border border-slate-700 transition-colors cursor-pointer"
             >
               <CalendarCheck className="w-4 h-4 text-teal-400" />
-              <span>Ver Agenda do Consultório</span>
+              <span>Ver Agenda Completa</span>
+            </button>
+            <button
+              onClick={() => carregarDados()}
+              className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 text-xs border border-slate-700 transition-colors cursor-pointer"
+              title="Atualizar dados"
+            >
+              <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
             </button>
           </div>
         </div>
       </div>
 
-      {/* 4 Cards de Métricas */}
+      {feedbackMsg && (
+        <div
+          className={`p-4 rounded-xl flex items-center justify-between text-xs font-semibold ${
+            feedbackMsg.tipo === 'sucesso'
+              ? 'bg-emerald-50 text-emerald-800 border border-emerald-200'
+              : 'bg-rose-50 text-rose-800 border border-rose-200'
+          }`}
+        >
+          <span>{feedbackMsg.texto}</span>
+          <button onClick={() => setFeedbackMsg(null)} className="text-slate-500 hover:text-slate-700">
+            ×
+          </button>
+        </div>
+      )}
+
+      {/* 4 Cards de Métricas Principais (com segregação deontológica para financeiro.ler) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs">
+        {/* Card 1: Consultas de Hoje */}
+        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs relative overflow-hidden">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold text-slate-700 uppercase tracking-wider">
-              Consultas Hoje
+            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+              Consultas de Hoje
             </span>
             <div className="w-9 h-9 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center">
               <CalendarCheck className="w-5 h-5" />
             </div>
           </div>
-          <p className="text-2xl font-bold text-slate-900 mt-2">
-            {todayAppointments.length}
+          <p className="text-3xl font-extrabold text-slate-900 mt-2">
+            {consultasHoje.length}
           </p>
-          <div className="mt-2 flex items-center gap-1.5 text-xs text-slate-700">
-            <span className="font-medium text-emerald-600">
-              {todayAppointments.filter((a) => a.status === 'concluido').length} atendidos
+          <div className="mt-2 flex items-center gap-1.5 text-xs text-slate-600">
+            <span className="font-semibold text-emerald-600">
+              {consultasHoje.filter((a) => a.status === 'atendido' || a.status === 'concluido').length} atendidos
             </span>
             <span>•</span>
-            <span>{todayAppointments.filter((a) => a.status === 'em_espera').length} em espera</span>
+            <span className="font-semibold text-cyan-600">
+              {consultasHoje.filter((a) => a.status === 'confirmado').length} confirmados
+            </span>
           </div>
         </div>
 
-        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs">
+        {/* Card 2: Pendentes de Confirmação */}
+        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs relative overflow-hidden">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold text-slate-700 uppercase tracking-wider">
-              Pacientes Cadastrados
+            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+              Pendentes de Confirmação
+            </span>
+            <div className="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center">
+              <AlertCircle className="w-5 h-5" />
+            </div>
+          </div>
+          <p className="text-3xl font-extrabold text-amber-600 mt-2">
+            {consultasPendentes.length}
+          </p>
+          <div className="mt-2 flex items-center gap-1.5 text-xs text-slate-600">
+            <span>Aguardando retorno via WhatsApp</span>
+          </div>
+        </div>
+
+        {/* Card 3: Agendamentos Novos do Site */}
+        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs relative overflow-hidden">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+              Novos do Site
             </span>
             <div className="w-9 h-9 rounded-xl bg-cyan-50 text-cyan-600 flex items-center justify-center">
-              <Users className="w-5 h-5" />
+              <Globe className="w-5 h-5" />
             </div>
           </div>
-          <p className="text-2xl font-bold text-slate-900 mt-2">
-            {patients.length}
+          <p className="text-3xl font-extrabold text-cyan-700 mt-2">
+            {novosDoSite.length}
           </p>
-          <p className="mt-2 text-xs text-slate-700">
-            Prontuários registrados no consultório
-          </p>
+          <div className="mt-2 flex items-center gap-1.5 text-xs text-slate-600">
+            <span className="font-semibold text-cyan-700">Origem: Landing Page</span>
+          </div>
         </div>
 
-        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs">
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold text-slate-700 uppercase tracking-wider">
-              Exames Realizados
-            </span>
-            <div className="w-9 h-9 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
-              <Eye className="w-5 h-5" />
+        {/* Card 4: Receita do Mês (ESTRITAMENTE CONDICIONADO A financeiro.ler) */}
+        {podeVerFinanceiro ? (
+          <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs relative overflow-hidden">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+                Receita do Mês
+              </span>
+              <div className="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                <TrendingUp className="w-5 h-5" />
+              </div>
+            </div>
+            <p className="text-3xl font-extrabold text-slate-900 mt-2">
+              {formatCurrencyFromCents(dashboardData?.financeiroMes?.receitaCentavos || 48000)}
+            </p>
+            <div className="mt-2 flex items-center gap-1.5 text-xs text-emerald-700 font-medium">
+              <span>Saldo Líquido: {formatCurrencyFromCents(dashboardData?.financeiroMes?.saldoCentavos || 16000)}</span>
             </div>
           </div>
-          <p className="text-2xl font-bold text-slate-900 mt-2">
-            {exams.length}
-          </p>
-          <p className="mt-2 text-xs text-slate-700">
-            Refrações ópticas arquivadas
-          </p>
-        </div>
-
-        <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs">
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold text-slate-700 uppercase tracking-wider">
-              Faturamento no Caixa
-            </span>
-            <div className="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
-              <TrendingUp className="w-5 h-5" />
+        ) : (
+          <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs relative overflow-hidden">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
+                Pacientes Ativos
+              </span>
+              <div className="w-9 h-9 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                <Users className="w-5 h-5" />
+              </div>
+            </div>
+            <p className="text-3xl font-extrabold text-slate-900 mt-2">
+              {patients.length}
+            </p>
+            <div className="mt-2 flex items-center gap-1.5 text-xs text-slate-500 font-medium">
+              <span>Prontuários registrados na clínica</span>
             </div>
           </div>
-          <p className="text-2xl font-bold text-slate-900 mt-2">
-            {formatCurrencyFromCents(financialSummary.totalIncomeInCents)}
-          </p>
-          <div className="mt-2 flex items-center gap-1.5 text-xs text-emerald-600 font-medium">
-            <span>Saldo: {formatCurrencyFromCents(financialSummary.balanceInCents)}</span>
-          </div>
-        </div>
+        )}
       </div>
 
-      {/* Fila do Dia & Refrações */}
+      {/* Grid: Consultas de Hoje & Destaques de Agendamento do Site */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        {/* Coluna 1: Consultas de Hoje */}
         <div className="lg:col-span-7 bg-white rounded-2xl border border-slate-200 shadow-xs p-6">
           <div className="flex items-center justify-between pb-4 border-b border-slate-100">
             <div>
-              <h2 className="text-base font-bold text-slate-900">
-                Fila de Consultas do Dia
+              <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
+                <Calendar className="w-4 h-4 text-teal-600" />
+                <span>Consultas de Hoje ({formatDateBR(hojeStr)})</span>
               </h2>
-              <p className="text-xs text-slate-700">
-                Controle de recepção e gabinete em tempo real
+              <p className="text-xs text-slate-500 mt-0.5">
+                Atendimentos previstos para o dia no consultório
               </p>
             </div>
             <Link
               to="/admin/agenda"
               className="text-xs font-semibold text-teal-600 hover:text-teal-700 inline-flex items-center gap-1"
             >
-              <span>Ver agenda</span>
+              <span>Abrir Agenda</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
 
           <div className="mt-4 divide-y divide-slate-100">
-            {todayAppointments.length === 0 ? (
-              <div className="py-10 text-center text-slate-700 text-sm">
+            {consultasHoje.length === 0 ? (
+              <div className="py-12 text-center text-slate-500 text-sm">
                 Nenhuma consulta agendada para hoje.
               </div>
             ) : (
-              todayAppointments.map((appt) => (
+              consultasHoje.map((appt) => (
                 <div
                   key={appt.id}
                   className="py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 hover:bg-slate-50/80 px-2 rounded-xl transition-colors"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="w-11 h-11 rounded-xl bg-slate-100 border border-slate-200 flex flex-col items-center justify-center font-mono font-bold text-slate-700 shrink-0">
+                    <div className="w-12 h-12 rounded-xl bg-slate-100 border border-slate-200 flex flex-col items-center justify-center font-mono font-bold text-slate-700 shrink-0">
                       <span className="text-xs">{appt.time}</span>
-                      <span className="text-[9px] text-slate-700 font-normal">{appt.durationMinutes}m</span>
+                      <span className="text-[9px] text-slate-500 font-normal">{appt.durationMinutes}m</span>
                     </div>
                     <div>
-                      <h4 className="text-sm font-bold text-slate-800">
-                        {appt.patientName}
-                      </h4>
-                      <p className="text-xs text-slate-700">
-                        {appt.type === 'consulta_completa'
-                          ? 'Consulta Optométrica Completa'
-                          : appt.type === 'retorno'
-                          ? 'Retorno Clínico'
-                          : appt.type === 'adaptacao_lentes'
-                          ? 'Adaptação de Lentes de Contato'
-                          : appt.type}
+                      <div className="flex items-center gap-2">
+                        <h4 className="text-sm font-bold text-slate-900">
+                          {appt.patientName}
+                        </h4>
+                        {appt.origem === 'site' && (
+                          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-cyan-100 text-cyan-800 border border-cyan-200">
+                            <Globe className="w-2.5 h-2.5" />
+                            Novo do Site
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-xs text-slate-500 mt-0.5">
+                        {appt.serviceName ||
+                          (appt.type === 'consulta_completa'
+                            ? 'Exame de Refração Completo'
+                            : appt.type === 'adaptacao_lentes'
+                            ? 'Adaptação de Lentes de Contato'
+                            : 'Atendimento Clínico')}
                       </p>
                     </div>
                   </div>
@@ -243,35 +339,47 @@ export const DashboardPage: React.FC = () => {
                   <div className="flex items-center gap-2 self-end sm:self-center">
                     <span
                       className={`text-[11px] font-semibold px-2.5 py-1 rounded-full ${
-                        appt.status === 'em_espera'
+                        appt.status === 'pendente'
                           ? 'bg-amber-100 text-amber-800'
-                          : appt.status === 'em_atendimento'
-                          ? 'bg-cyan-100 text-cyan-800 animate-pulse'
-                          : appt.status === 'concluido'
+                          : appt.status === 'confirmado'
+                          ? 'bg-teal-100 text-teal-800'
+                          : appt.status === 'atendido' || appt.status === 'concluido'
                           ? 'bg-emerald-100 text-emerald-800'
+                          : appt.status === 'cancelado'
+                          ? 'bg-rose-100 text-rose-800'
                           : 'bg-slate-100 text-slate-700'
                       }`}
                     >
-                      {appt.status === 'em_espera'
-                        ? 'Em Espera'
-                        : appt.status === 'em_atendimento'
-                        ? 'Em Atendimento'
-                        : appt.status === 'concluido'
-                        ? 'Concluído'
-                        : 'Confirmado'}
+                      {appt.status === 'pendente'
+                        ? 'Pendente'
+                        : appt.status === 'confirmado'
+                        ? 'Confirmado'
+                        : appt.status === 'atendido'
+                        ? 'Atendido'
+                        : appt.status === 'cancelado'
+                        ? 'Cancelado'
+                        : appt.status}
                     </span>
 
-                    {appt.status !== 'concluido' && (
+                    {podeEditarAgenda && appt.status === 'pendente' && (
                       <button
-                        onClick={() =>
-                          handleUpdateStatus(
-                            appt.id,
-                            appt.status === 'em_atendimento' ? 'concluido' : 'em_atendimento'
-                          )
-                        }
-                        className="px-2.5 py-1 text-xs font-semibold rounded-lg bg-teal-50 hover:bg-teal-100 text-teal-700 border border-teal-200 transition-colors cursor-pointer"
+                        onClick={() => handleConfirmar(appt)}
+                        disabled={updatingId === appt.id}
+                        className="p-1.5 rounded-lg bg-teal-50 hover:bg-teal-100 text-teal-700 border border-teal-200 transition-colors cursor-pointer"
+                        title="Confirmar consulta e abrir WhatsApp"
                       >
-                        {appt.status === 'em_atendimento' ? 'Finalizar' : 'Atender'}
+                        <MessageCircle className="w-4 h-4" />
+                      </button>
+                    )}
+
+                    {podeEditarAgenda && appt.status === 'confirmado' && (
+                      <button
+                        onClick={() => handleMarcarAtendido(appt.id)}
+                        disabled={updatingId === appt.id}
+                        className="p-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 transition-colors cursor-pointer"
+                        title="Marcar como Atendido"
+                      >
+                        <CheckCircle2 className="w-4 h-4" />
                       </button>
                     )}
                   </div>
@@ -281,54 +389,76 @@ export const DashboardPage: React.FC = () => {
           </div>
         </div>
 
-        <div className="lg:col-span-5 space-y-6">
-          <div className="bg-white rounded-2xl border border-slate-200 shadow-xs p-6">
-            <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-              <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
-                <FileText className="w-4 h-4 text-teal-600" />
-                <span>Últimas Refrações Registradas</span>
-              </h3>
-              <Link to="/admin/exames" className="text-xs text-teal-600 font-semibold hover:underline">
-                Ver todas
-              </Link>
+        {/* Coluna 2: Pendentes de Confirmação & Agendamentos do Site */}
+        <div className="lg:col-span-5 bg-white rounded-2xl border border-slate-200 shadow-xs p-6">
+          <div className="flex items-center justify-between pb-4 border-b border-slate-100">
+            <div>
+              <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
+                <AlertCircle className="w-4 h-4 text-amber-500" />
+                <span>Pendentes de Confirmação</span>
+              </h2>
+              <p className="text-xs text-slate-500 mt-0.5">
+                Requerem contato prévio ou confirmação da recepção
+              </p>
             </div>
-
-            <div className="mt-3 divide-y divide-slate-100">
-              {exams.slice(0, 3).map((exam) => (
-                <div key={exam.id} className="py-3 text-xs">
-                  <div className="flex items-center justify-between font-medium">
-                    <span className="font-bold text-slate-800">{exam.patientName}</span>
-                    <span className="text-slate-700">{formatDateBR(exam.date)}</span>
-                  </div>
-                  <div className="mt-1.5 p-2 rounded-lg bg-slate-50 font-mono text-[11px] grid grid-cols-2 gap-2 text-slate-700">
-                    <div>
-                      <span className="text-teal-700 font-bold">OD: </span>
-                      {exam.subjectiveRefraction.od.spherical >= 0 ? '+' : ''}
-                      {exam.subjectiveRefraction.od.spherical.toFixed(2)} ESF /{' '}
-                      {exam.subjectiveRefraction.od.cylindrical.toFixed(2)} CIL x{' '}
-                      {exam.subjectiveRefraction.od.axis}°
-                    </div>
-                    <div>
-                      <span className="text-teal-700 font-bold">OE: </span>
-                      {exam.subjectiveRefraction.oe.spherical >= 0 ? '+' : ''}
-                      {exam.subjectiveRefraction.oe.spherical.toFixed(2)} ESF /{' '}
-                      {exam.subjectiveRefraction.oe.cylindrical.toFixed(2)} CIL x{' '}
-                      {exam.subjectiveRefraction.oe.axis}°
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <span className="px-2 py-0.5 text-xs font-bold rounded-full bg-amber-100 text-amber-800">
+              {consultasPendentes.length}
+            </span>
           </div>
 
-          <div className="p-5 rounded-2xl bg-teal-50/70 border border-teal-200/80 text-xs text-teal-900">
-            <div className="flex items-center gap-2 font-bold mb-1 text-teal-950">
-              <Activity className="w-4 h-4 text-teal-600" />
-              <span>Prontuário Único do Consultório</span>
-            </div>
-            <p className="leading-relaxed text-teal-800">
-              Sistema de uso privativo do <strong>{consultorio.nomeFantasia}</strong>. Todos os dados clínicos, acuidade e receitas permanecem sob sigilo profissional do responsável técnico {consultorio.responsavelTecnico}.
-            </p>
+          <div className="mt-4 divide-y divide-slate-100">
+            {consultasPendentes.length === 0 ? (
+              <div className="py-12 text-center text-slate-500 text-sm">
+                Todos os agendamentos estão confirmados!
+              </div>
+            ) : (
+              consultasPendentes.slice(0, 5).map((appt) => (
+                <div key={appt.id} className="py-3 flex items-center justify-between gap-3">
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <h4 className="text-sm font-bold text-slate-900 truncate">
+                        {appt.patientName}
+                      </h4>
+                      {appt.origem === 'site' && (
+                        <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-bold bg-cyan-100 text-cyan-800">
+                          <Globe className="w-2.5 h-2.5" />
+                          Site
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex items-center gap-2 text-xs text-slate-500 mt-0.5">
+                      <span>{formatDateBR(appt.date)} às {appt.time}</span>
+                      <span>•</span>
+                      <span className="truncate">{appt.patientPhone}</span>
+                    </div>
+                  </div>
+
+                  {podeEditarAgenda && (
+                    <button
+                      onClick={() => handleConfirmar(appt)}
+                      disabled={updatingId === appt.id}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs transition-colors shrink-0 cursor-pointer shadow-xs"
+                    >
+                      <MessageCircle className="w-3.5 h-3.5" />
+                      <span>Confirmar</span>
+                    </button>
+                  )}
+                </div>
+              ))
+            )}
+          </div>
+
+          <div className="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span className="text-xs text-slate-500">
+              Agendamentos do site entram com status pendente.
+            </span>
+            <Link
+              to="/admin/agenda"
+              className="text-xs font-bold text-teal-600 hover:text-teal-700 inline-flex items-center gap-1"
+            >
+              <span>Ver todos</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
         </div>
       </div>

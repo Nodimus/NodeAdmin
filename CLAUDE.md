@@ -19,3 +19,8 @@ Aplicação monolítica em **React 19 + TypeScript + Vite + Tailwind CSS v4** in
 4. **Segurança no Servidor**:
    - Regras do Firestore (`firestore.rules`) garantem que apenas usuários autenticados da equipe acessem prontuários, exames, receitas e financeiro.
    - O documento do consultório é travado no ID `dados_gerais`, impedindo múltiplos registros.
+5. **Exclusividade Clínica e Regra Deontológica (Sem Venda de Óculos / Loja / Comércio)**:
+   - Este sistema é **ESTRITAMENTE para Consultório / Clínica de Optometria** (avaliação visual, anamnese, exames de refração, laudos, acuidade visual, motilidade e prescrição óptica).
+   - É **expressamente proibida** qualquer iniciativa de venda de óculos, armações, lentes de contato comerciais, loja virtual, balcão óptico ou estoque de produtos no sistema.
+   - O consultório atua com independência e isenção: diagnostica e emite o receituário para que o paciente avie em qualquer ótica de sua livre escolha.
+   - Não devem existir telas de estoque de armações, venda de produtos, vitrines ou categorias financeiras de venda de óculos. Todas as receitas são honorários de consultas e procedimentos clínicos.

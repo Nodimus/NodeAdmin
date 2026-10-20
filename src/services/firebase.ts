@@ -13,14 +13,29 @@ export interface FirebaseConfig {
   measurementId?: string;
 }
 
+// Suporta tanto o ambiente de desenvolvimento Vite quanto Node.js/CLI
+const getEnv = (key: string): string | undefined => {
+  try {
+    if (typeof import.meta !== 'undefined' && (import.meta as any).env?.[key]) {
+      return (import.meta as any).env[key];
+    }
+  } catch {}
+  try {
+    if (typeof process !== 'undefined' && process.env?.[key]) {
+      return process.env[key];
+    }
+  } catch {}
+  return undefined;
+};
+
 const firebaseConfig: FirebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+  apiKey: getEnv('VITE_FIREBASE_API_KEY'),
+  authDomain: getEnv('VITE_FIREBASE_AUTH_DOMAIN'),
+  projectId: getEnv('VITE_FIREBASE_PROJECT_ID'),
+  storageBucket: getEnv('VITE_FIREBASE_STORAGE_BUCKET'),
+  messagingSenderId: getEnv('VITE_FIREBASE_MESSAGING_SENDER_ID'),
+  appId: getEnv('VITE_FIREBASE_APP_ID'),
+  measurementId: getEnv('VITE_FIREBASE_MEASUREMENT_ID'),
 };
 
 // Checa se as variáveis de ambiente essenciais foram fornecidas
@@ -42,12 +57,10 @@ if (isFirebaseConfigured) {
     auth = getAuth(app);
     db = getFirestore(app);
     storage = getStorage(app);
-    console.info('Vinnes Admin: Firebase inicializado com sucesso.');
+    console.info('Consultório Optometria: Firebase inicializado com sucesso.');
   } catch (error) {
-    console.warn('Vinnes Admin: Falha ao inicializar Firebase nativo, ativando camada de contingência local.', error);
+    console.warn('Consultório Optometria: Falha ao inicializar Firebase nativo, operando com contingência local.', error);
   }
-} else {
-  console.info('Vinnes Admin: Operando em modo de Demonstração / Dados Locais. Para conectar ao Firebase de produção, configure as variáveis VITE_FIREBASE_* no arquivo .env.');
 }
 
 export { app, auth, db, storage };

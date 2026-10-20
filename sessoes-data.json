@@ -1,0 +1,2288 @@
+[
+  {
+    "token": "a26dfe4d62e8fc25f20e03b0f8bd8e1f5050ce5d3e1b91d7a78b2c720974ad6a",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:44:32.777Z",
+    "expiraEm": "2026-10-23T14:44:32.777Z"
+  },
+  {
+    "token": "e1f68ffec9a57dd4db5d8d3a9cec8a28cb119769cd76e0f98110be67cd8a0134",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T14:44:32.840Z",
+    "expiraEm": "2026-10-23T14:44:32.840Z"
+  },
+  {
+    "token": "603c9a161c524b6509ae6031e7dbb0f3c4b2c558db76bd86389e6cb2b60c3be0",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-16T14:44:32.892Z",
+    "expiraEm": "2026-10-23T14:44:32.892Z"
+  },
+  {
+    "token": "4be9c1adc516c4cc02438e5f2e04ef4e265f9f9e9a44a3507bd61a763e9d4f67",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-16T14:44:32.943Z",
+    "expiraEm": "2026-10-23T14:44:32.943Z"
+  },
+  {
+    "token": "3d52887f6d4242d96411083956298200e81a61c3ef1468037579fd1fe977afdf",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:44:33.051Z",
+    "expiraEm": "2026-10-23T14:44:33.051Z"
+  },
+  {
+    "token": "cf3c6a36e130509d94fcc2f8898e96a9c4b3a477763a47202cfc612481cf195f",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:45:11.477Z",
+    "expiraEm": "2026-10-23T14:45:11.477Z"
+  },
+  {
+    "token": "8e9236b5f5ec3a89756723e6af0c27b14d56f5c84eeb0d1fb6d9013de5a515eb",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T14:45:11.560Z",
+    "expiraEm": "2026-10-23T14:45:11.560Z"
+  },
+  {
+    "token": "0858d476b9461f87e33d8c84b79cedd9e78e1d3eab0557844051a661b898745a",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-16T14:45:11.614Z",
+    "expiraEm": "2026-10-23T14:45:11.614Z"
+  },
+  {
+    "token": "bd076e9a861d214a575dca409f6c8ad8e0bf01d98b2479cb0b38793ebbba19a5",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-16T14:45:11.667Z",
+    "expiraEm": "2026-10-23T14:45:11.667Z"
+  },
+  {
+    "token": "4e025030da1906f556dc63e9ca7dc64007e1ae3afb2ecd7314e3b7cfd6fb2668",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:45:11.779Z",
+    "expiraEm": "2026-10-23T14:45:11.779Z"
+  },
+  {
+    "token": "60b4190505c1bcfa34e2942bf0a5c9628932e1d8d6e775b96e80b7f6f9d0e8b6",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:57:11.832Z",
+    "expiraEm": "2026-10-23T14:57:11.832Z"
+  },
+  {
+    "token": "7d9c52e9bbbd3ebba20ca2df25abfcf5ffbb324c34e45865d314e4afe4f01157",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T14:57:11.914Z",
+    "expiraEm": "2026-10-23T14:57:11.914Z"
+  },
+  {
+    "token": "5901839272ea3dc35845349ff149cdef588f2cb059641429f1dedd27a4bd5fe4",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-16T14:57:11.966Z",
+    "expiraEm": "2026-10-23T14:57:11.966Z"
+  },
+  {
+    "token": "eaa43007112191142c6af6db8526b2271bbad9000ca4cf951771af6cf8be2c83",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-16T14:57:12.019Z",
+    "expiraEm": "2026-10-23T14:57:12.019Z"
+  },
+  {
+    "token": "5197e5bf75ba1ea647b695979bfe9be0236f643ea1a930b1f6b22defc9680af1",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:57:12.134Z",
+    "expiraEm": "2026-10-23T14:57:12.134Z"
+  },
+  {
+    "token": "82fe064d1a22bf953a29d0a01c18b42d9475872312d7d9c95be3aa5aa35b6241",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T14:57:12.264Z",
+    "expiraEm": "2026-10-23T14:57:12.264Z"
+  },
+  {
+    "token": "72808f502ef8ac98468f6cb8579936202566d9cf2064e0466f0254e46ca3bac2",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:57:43.838Z",
+    "expiraEm": "2026-10-23T14:57:43.838Z"
+  },
+  {
+    "token": "02ff309790b9cd082bc054b47cbd72602beebe31cebd0b41e6699712e61ce4c1",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T14:57:43.931Z",
+    "expiraEm": "2026-10-23T14:57:43.931Z"
+  },
+  {
+    "token": "4cfce11c27fcd2d6ae5069d3ac6f45233f1de286735004eb173418e8fa028117",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-16T14:57:43.984Z",
+    "expiraEm": "2026-10-23T14:57:43.984Z"
+  },
+  {
+    "token": "aa762842a6d25623d6a8186a172f2615eff12fd470f5b8ca6310b99d3c3b2aab",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-16T14:57:44.036Z",
+    "expiraEm": "2026-10-23T14:57:44.036Z"
+  },
+  {
+    "token": "cd357b6c9b50053f6c77dae794704f0297509b4360292e3e10c0eb8fc6b15235",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:57:44.146Z",
+    "expiraEm": "2026-10-23T14:57:44.146Z"
+  },
+  {
+    "token": "59baef86fe9a0d855f525423b1f0d8fd33e23e10f3620d21b9857054b57bbc63",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T14:57:44.282Z",
+    "expiraEm": "2026-10-23T14:57:44.282Z"
+  },
+  {
+    "token": "27272ca1a9083ea98c1385028aba56abb2b6ecf142bd93e53f4e68f70148711f",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:57:58.438Z",
+    "expiraEm": "2026-10-23T14:57:58.438Z"
+  },
+  {
+    "token": "b610798f6564067bdad529677d4a411da3eba8b8eb6b05cd6393fb49a3abab83",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T14:57:58.534Z",
+    "expiraEm": "2026-10-23T14:57:58.534Z"
+  },
+  {
+    "token": "e7df1045e5a1b1fa90e56b6f8f2cfc4b97aeaf160b15a980800c331c4c9e715b",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-16T14:57:58.590Z",
+    "expiraEm": "2026-10-23T14:57:58.590Z"
+  },
+  {
+    "token": "54954f33dfb9817e1f6f62f03770bacd3c9c41027734c370d7be9d0d84a1865d",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-16T14:57:58.647Z",
+    "expiraEm": "2026-10-23T14:57:58.647Z"
+  },
+  {
+    "token": "73c814aa626f9f038b6f1b5f0695cd24c460feffa4d5bb2243049efa62be26e9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T14:57:58.761Z",
+    "expiraEm": "2026-10-23T14:57:58.761Z"
+  },
+  {
+    "token": "f837926819abc56183be552faf538e1ceaa25230f128c0424cbdc81e9caab377",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T14:57:58.890Z",
+    "expiraEm": "2026-10-23T14:57:58.890Z"
+  },
+  {
+    "token": "f03acbe33589c697e81c8089440fa78cada98bccf8b70bd67c3c362b6000096b",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T15:18:31.407Z",
+    "expiraEm": "2026-10-23T15:18:31.407Z"
+  },
+  {
+    "token": "154fafe977259dc9459e4c7d1e9ed6ed0cb0834b361f3301e3f1a58b12312b26",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T15:18:31.489Z",
+    "expiraEm": "2026-10-23T15:18:31.489Z"
+  },
+  {
+    "token": "b1e6470aab793c62d6ce9e9ef14022b3b016f809f6af0133ce57307137594ca6",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-16T15:18:31.542Z",
+    "expiraEm": "2026-10-23T15:18:31.542Z"
+  },
+  {
+    "token": "523202cafaff44a099c4910b8921ebf31433065d319a62b9ecef79819f4a5034",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-16T15:18:31.593Z",
+    "expiraEm": "2026-10-23T15:18:31.593Z"
+  },
+  {
+    "token": "dfedb5ad20ef2e2c7bb811cf5240b62b891a72e29f095ec81ee8af3a577dd7b9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-16T15:18:31.703Z",
+    "expiraEm": "2026-10-23T15:18:31.703Z"
+  },
+  {
+    "token": "bca4c18603490e4c9bc34ca3279776a1b63bb7b10c13bbbbff06f520ff55e250",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-16T15:18:31.835Z",
+    "expiraEm": "2026-10-23T15:18:31.835Z"
+  },
+  {
+    "token": "6389c6a58d52962f2e64c347dd64ec1b3accb29fa04e594d98cebc4f86072ac0",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:17:04.703Z",
+    "expiraEm": "2026-10-24T11:17:04.703Z"
+  },
+  {
+    "token": "01078af0c5c841bd1960ce6b763c2d450d259407e5d2d5ca4404e679064fcf58",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:17:04.783Z",
+    "expiraEm": "2026-10-24T11:17:04.783Z"
+  },
+  {
+    "token": "677a7d867fe98b367593910e55346a225b5a03a0aaef97361fc921ec3db55410",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T11:17:04.839Z",
+    "expiraEm": "2026-10-24T11:17:04.839Z"
+  },
+  {
+    "token": "8a7c750816d5aaf3c4e4c684afda66ac2955cd7f9eb446a6bee80a56bc18a1d1",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T11:17:04.902Z",
+    "expiraEm": "2026-10-24T11:17:04.902Z"
+  },
+  {
+    "token": "3f6a4d265ca5d89859610d73616caae9e6a714395292439683f1b01fb8439325",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:17:05.039Z",
+    "expiraEm": "2026-10-24T11:17:05.039Z"
+  },
+  {
+    "token": "460b6c376e431f0a2132a8198eafdd91f582a0e2def87781b19dc18036e75436",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:17:05.190Z",
+    "expiraEm": "2026-10-24T11:17:05.190Z"
+  },
+  {
+    "token": "1cb8977abbca1b5788005f213ce6c89099597663857cc216fbad2215f092ede9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:25:38.839Z",
+    "expiraEm": "2026-10-24T11:25:38.839Z"
+  },
+  {
+    "token": "7c739d458da7214f7d37fe248a4230381cb94ea6f5066794dcd18fea8fc5c66e",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:25:38.920Z",
+    "expiraEm": "2026-10-24T11:25:38.920Z"
+  },
+  {
+    "token": "6fe92b3e355997bf5a340bee47833d8378b8cc0c2a523eb22b05b1704dc3cf0f",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T11:25:38.975Z",
+    "expiraEm": "2026-10-24T11:25:38.975Z"
+  },
+  {
+    "token": "53f39d310973170b18cf96f92158f32b675feed4357210cf0cbb9b1c4297693a",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T11:25:39.028Z",
+    "expiraEm": "2026-10-24T11:25:39.028Z"
+  },
+  {
+    "token": "1c1241cc0cf6d8b34c05f6b4a6dc3212792e6a54d883aaf0e79f818c71a4b6e7",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:25:39.151Z",
+    "expiraEm": "2026-10-24T11:25:39.151Z"
+  },
+  {
+    "token": "c69f0dcc86636c040bcd8ed75095cb20b7e3da78f036f6d0ca1ce1093e661c67",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:25:39.282Z",
+    "expiraEm": "2026-10-24T11:25:39.282Z"
+  },
+  {
+    "token": "a97a24a0d035506e2599e776a05075b1247f90c2cbdfa498da7c127d42fd66c0",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:36:24.253Z",
+    "expiraEm": "2026-10-24T11:36:24.253Z"
+  },
+  {
+    "token": "f5aae80ba9913e8df9f4e2ae6a077482a5da02978fa7b97d3d3ab852f5f8b9cf",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:36:24.345Z",
+    "expiraEm": "2026-10-24T11:36:24.345Z"
+  },
+  {
+    "token": "eeaf0cfcb608be67614cfb604ef0932718cd9fbc085e9199dd13d9da5420056f",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T11:36:24.404Z",
+    "expiraEm": "2026-10-24T11:36:24.404Z"
+  },
+  {
+    "token": "da57dd694a2a48494540e3ff7a84f108ff4abd68a6e8135174f2d258dbce2585",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T11:36:24.463Z",
+    "expiraEm": "2026-10-24T11:36:24.463Z"
+  },
+  {
+    "token": "02ae61a6def2d0891dc8d7c58afb8e0ac5cfe2cfd325e391b9dcd20bf747d0c1",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:36:24.579Z",
+    "expiraEm": "2026-10-24T11:36:24.579Z"
+  },
+  {
+    "token": "7857fa702394023d2a7d033c9b223c132728b57cde3bd01fa467da889b9b864a",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:36:24.711Z",
+    "expiraEm": "2026-10-24T11:36:24.711Z"
+  },
+  {
+    "token": "e8a37c0cbdde35deb86c268f6ffce5735f6024b1bf1b33197f4a3a0cea8e1abd",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:36:52.942Z",
+    "expiraEm": "2026-10-24T11:36:52.942Z"
+  },
+  {
+    "token": "a5abde1f10d4a10bed0093628810c8beefddc17e257552dde714c73e96d7995e",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:36:53.031Z",
+    "expiraEm": "2026-10-24T11:36:53.031Z"
+  },
+  {
+    "token": "68a1af40201c2c86bad1168ed18a86e4bfb86dc7718408562426feff525928a9",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T11:36:53.095Z",
+    "expiraEm": "2026-10-24T11:36:53.095Z"
+  },
+  {
+    "token": "4c2d33bcb254d8a09165c4a3b2d545baacb7135b178a1b3d9f9648160825d9d4",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T11:36:53.154Z",
+    "expiraEm": "2026-10-24T11:36:53.154Z"
+  },
+  {
+    "token": "92d6d66a46c093f6efd9fbff15f98244b549cfb72c8cd3f5293f31d0c27b8da9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:36:53.275Z",
+    "expiraEm": "2026-10-24T11:36:53.275Z"
+  },
+  {
+    "token": "6f8a8e29ba7b5c1635ccfb4b660cebce1b93a1b6f7c2fbb71cc019d780443307",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:36:53.406Z",
+    "expiraEm": "2026-10-24T11:36:53.406Z"
+  },
+  {
+    "token": "6e927619f03496a96538122326fbeaa7b6c8681c24b7eef2646d983d489cd460",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:46:39.530Z",
+    "expiraEm": "2026-10-24T11:46:39.530Z"
+  },
+  {
+    "token": "6b5816b6bc4213bcd01d8795189fe56852dbde3ceb3ae9800481f4c866fa6697",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:46:39.613Z",
+    "expiraEm": "2026-10-24T11:46:39.613Z"
+  },
+  {
+    "token": "1620f6cb243f0ab375f2f7fb376bd623e63848c7e49b082f57f18cf9d0668116",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T11:46:39.666Z",
+    "expiraEm": "2026-10-24T11:46:39.666Z"
+  },
+  {
+    "token": "004960aeee4b4b3ee52e7171e78c086fdad7a0e817f9c9a699007f1795504510",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T11:46:39.719Z",
+    "expiraEm": "2026-10-24T11:46:39.719Z"
+  },
+  {
+    "token": "c3d86088b08e8f8140448e6b360a46dfb283cfd467c624c3f4a14b7781fd1b46",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:46:39.836Z",
+    "expiraEm": "2026-10-24T11:46:39.836Z"
+  },
+  {
+    "token": "9ced48fb0d84ff76f704e42af65f467e7df7e1b827ec30f371e1e1f3183aa817",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:46:39.975Z",
+    "expiraEm": "2026-10-24T11:46:39.975Z"
+  },
+  {
+    "token": "901914f237fc7fcdb54b1b269000ed0c9a9d948f7581793b66234af96e8edf92",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:47:33.742Z",
+    "expiraEm": "2026-10-24T11:47:33.742Z"
+  },
+  {
+    "token": "6dafcc542331b2f4bcea4dd0ab952f61ae3def7e8ac73fa291c40a322395afc6",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:47:33.826Z",
+    "expiraEm": "2026-10-24T11:47:33.826Z"
+  },
+  {
+    "token": "d364e9fa12abf4d7d4ea8791021c1c2b32c8d33747f4ae872a8d8db1df9d79ea",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T11:47:33.879Z",
+    "expiraEm": "2026-10-24T11:47:33.879Z"
+  },
+  {
+    "token": "7ab9f7d5c6deabf398a1538277d397a7265920d35ad002c1772cb8d3caa50765",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T11:47:33.933Z",
+    "expiraEm": "2026-10-24T11:47:33.933Z"
+  },
+  {
+    "token": "047c22d1f384b550bf9ffe5027c4217fc309b3f935bf0fd82850a253f1c33bf3",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:47:34.054Z",
+    "expiraEm": "2026-10-24T11:47:34.054Z"
+  },
+  {
+    "token": "926a3f4dc6fb20ced2658314b058ee3ebbba72e72d56cf1d05d36713fe2fdf6f",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:47:34.189Z",
+    "expiraEm": "2026-10-24T11:47:34.189Z"
+  },
+  {
+    "token": "1d14763387e35886e50beb37880b580d1f7bc0f58a8f4d2f8fae5e7c8bedc740",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:56:32.544Z",
+    "expiraEm": "2026-10-24T11:56:32.544Z"
+  },
+  {
+    "token": "b32a160ee9a27f3610c591aa2aba5de2cdda9a7f184adb0968f16397b1e81572",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:56:32.630Z",
+    "expiraEm": "2026-10-24T11:56:32.630Z"
+  },
+  {
+    "token": "48bf25f0316366ff53fb29b3b149edb90e5b20e96d3e29c43e1d91e4be832610",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T11:56:32.683Z",
+    "expiraEm": "2026-10-24T11:56:32.683Z"
+  },
+  {
+    "token": "a31929ba51b6b01c0558456444024c49d3f9f9887a83dcc4df82e11ae422c0aa",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T11:56:32.736Z",
+    "expiraEm": "2026-10-24T11:56:32.736Z"
+  },
+  {
+    "token": "be8d91170a100f6bf6bf0083712e49d00b7f97287e01b756c43d3a667a9444b8",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T11:56:32.859Z",
+    "expiraEm": "2026-10-24T11:56:32.859Z"
+  },
+  {
+    "token": "4a9257fbe68d1af9245c4cf64472f2abbd8d3e08a53da34479e835fcc1cd5ae8",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T11:56:32.989Z",
+    "expiraEm": "2026-10-24T11:56:32.989Z"
+  },
+  {
+    "token": "9d368284bf381be66f857b7f41e45152e50d66b9c69f56ce38c83973e97df3c3",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:07:35.965Z",
+    "expiraEm": "2026-10-24T12:07:35.965Z"
+  },
+  {
+    "token": "4083c0b6cdafb3027625d317fbfffdb1c0a1dc5af675fb1b2b849b154ec45312",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:07:36.068Z",
+    "expiraEm": "2026-10-24T12:07:36.068Z"
+  },
+  {
+    "token": "cad05243806bd642f522b37fd1087398f6bf779c355b53c1e5b55e197c57361d",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T12:07:36.122Z",
+    "expiraEm": "2026-10-24T12:07:36.122Z"
+  },
+  {
+    "token": "dbe878df6f931d92d4c0d800e970af1d7a4f10220cf80d8cf637e56cdbb7ac04",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T12:07:36.175Z",
+    "expiraEm": "2026-10-24T12:07:36.175Z"
+  },
+  {
+    "token": "2294ae7624f023a83ee634cd3d1307d79a17f0f600bd9e6af92e69371f0c3736",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:07:36.298Z",
+    "expiraEm": "2026-10-24T12:07:36.298Z"
+  },
+  {
+    "token": "d1838245cc18a27051f9ac461c0e181dcaf552cd7d8b9d3467fbf07c0dda893e",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:07:36.431Z",
+    "expiraEm": "2026-10-24T12:07:36.431Z"
+  },
+  {
+    "token": "7c7d3b908987be6ab787f023b2fd6d20acbb02c2449b86cb020c6981b53f40cc",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:08:13.762Z",
+    "expiraEm": "2026-10-24T12:08:13.762Z"
+  },
+  {
+    "token": "8cad4309ecb3e725eb92300a81a5944fd20040e566cee28d347dc8e89cf9f083",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:08:13.859Z",
+    "expiraEm": "2026-10-24T12:08:13.859Z"
+  },
+  {
+    "token": "de037684fa59d8d2c05ff61e4e91677c86253a090e23a36a470b633f7eae8bf0",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T12:08:13.912Z",
+    "expiraEm": "2026-10-24T12:08:13.912Z"
+  },
+  {
+    "token": "0403a2543fb4eb099bbb4c95c8bc78210bed4f7240ac03a77bd35424bc3ef78a",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T12:08:13.969Z",
+    "expiraEm": "2026-10-24T12:08:13.969Z"
+  },
+  {
+    "token": "30ee8e1ea37a9bc37df2db5144051036c708d81103fba022206f5ba5aabbde1f",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:08:14.092Z",
+    "expiraEm": "2026-10-24T12:08:14.092Z"
+  },
+  {
+    "token": "7e5e80da66bf9d7fbca932226fae65b96761b56acb2b35edb75d260da9ffbec2",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:08:14.219Z",
+    "expiraEm": "2026-10-24T12:08:14.219Z"
+  },
+  {
+    "token": "5871296ece9f60068d407253e8c99568fc6cd799613bf3ee8293ad5c08fb7df6",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:09:14.112Z",
+    "expiraEm": "2026-10-24T12:09:14.112Z"
+  },
+  {
+    "token": "7f2c587fda802c1a6f913c9b6ad583af92cbf95c477e41d2f6e9479db0b23bad",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:09:14.198Z",
+    "expiraEm": "2026-10-24T12:09:14.198Z"
+  },
+  {
+    "token": "fe022eedbe7c94932afeb439bb92605e6094e79b032e39c7a99e74ecfafcdd96",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T12:09:14.252Z",
+    "expiraEm": "2026-10-24T12:09:14.252Z"
+  },
+  {
+    "token": "e3f47704570ef29109dd4bf2b97d3818871d99666dada008cfeaee03af95c6be",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T12:09:14.316Z",
+    "expiraEm": "2026-10-24T12:09:14.316Z"
+  },
+  {
+    "token": "e99e970be181e8d520d75c4033c6c7502200b6634bfec8e4b9eeb7a554e3b11c",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:09:14.448Z",
+    "expiraEm": "2026-10-24T12:09:14.448Z"
+  },
+  {
+    "token": "91d784306a7a765496b70d052fb1f8fc00e0f8b7a17d260b4142c5b62f89941d",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:09:14.581Z",
+    "expiraEm": "2026-10-24T12:09:14.581Z"
+  },
+  {
+    "token": "8bbdaf52e440ae34abf98b74eef8b0a23a9b34d41458fbab0845b46c0e2c540f",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:10:25.346Z",
+    "expiraEm": "2026-10-24T12:10:25.346Z"
+  },
+  {
+    "token": "c516e36df661778e472e21c6fe25cf5243b2f868aabd7fd04b70dcb30fd391a4",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:10:25.433Z",
+    "expiraEm": "2026-10-24T12:10:25.433Z"
+  },
+  {
+    "token": "316ca4d4bf869f92ecc282623ed77b27222b443b324b2165bc7e17314016d52a",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T12:10:25.493Z",
+    "expiraEm": "2026-10-24T12:10:25.493Z"
+  },
+  {
+    "token": "e981c28f5e58a1cb200545d962d9f8f0c365b7fb7235dc09b6df217db53b3c39",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T12:10:25.549Z",
+    "expiraEm": "2026-10-24T12:10:25.549Z"
+  },
+  {
+    "token": "3931626e2d762434ff1dd2a4d09e51c523d373f7ebd781e281ee7eb0b13b6dc5",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:10:25.673Z",
+    "expiraEm": "2026-10-24T12:10:25.673Z"
+  },
+  {
+    "token": "3f319db55d51f18d55e45fc9804862f2acf1675d2c0e35eab69858fff06b2f84",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:10:25.808Z",
+    "expiraEm": "2026-10-24T12:10:25.808Z"
+  },
+  {
+    "token": "5328fe78987667a1676d5dfcc131f1dba63c10c6fb2152f050bff9fe64880195",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:11:54.488Z",
+    "expiraEm": "2026-10-24T12:11:54.488Z"
+  },
+  {
+    "token": "c4585d4bf6edaec9edb81fbd5d93712ba6ae14705d3b08e433380a6e7ff64578",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:11:54.579Z",
+    "expiraEm": "2026-10-24T12:11:54.579Z"
+  },
+  {
+    "token": "0814a516d094c51da0d9ecb17fb425acb9406bd2f4019895dc58e20332b0fdd7",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T12:11:54.634Z",
+    "expiraEm": "2026-10-24T12:11:54.633Z"
+  },
+  {
+    "token": "3b3f687d202052782aae91c3b0b08262d61756e6f76ba7b3b9abeb133122879e",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T12:11:54.691Z",
+    "expiraEm": "2026-10-24T12:11:54.691Z"
+  },
+  {
+    "token": "66a8f50146450f0391886a1d779a0d9757fce66fd173fb47cf274abefcd7d392",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:11:54.823Z",
+    "expiraEm": "2026-10-24T12:11:54.823Z"
+  },
+  {
+    "token": "95b15090aad6c27549e49a57f93f52b3bc16d22b693d3220866a9e891ba92531",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:11:54.961Z",
+    "expiraEm": "2026-10-24T12:11:54.961Z"
+  },
+  {
+    "token": "b0ddf97bcc0f5458e49649989221c5dbdb904be6af536cbc8113c861f97ebda5",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:12:14.812Z",
+    "expiraEm": "2026-10-24T12:12:14.812Z"
+  },
+  {
+    "token": "66fbea279fab81d38da974479f37568a52377e7972aa00fa17e130d32a836aa2",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:12:14.893Z",
+    "expiraEm": "2026-10-24T12:12:14.893Z"
+  },
+  {
+    "token": "fb99ab230e4b7f9500946737fe9d8e6d538a399e15138ee552abac2a669af8bb",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T12:12:14.949Z",
+    "expiraEm": "2026-10-24T12:12:14.949Z"
+  },
+  {
+    "token": "5eec3b4b669015977ec6a5da15c5b4fa0c2a5accee3909da275d285a12e8a9e3",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T12:12:15.002Z",
+    "expiraEm": "2026-10-24T12:12:15.002Z"
+  },
+  {
+    "token": "261819d07f66c43e159d37dd0e1c5d5814db31d983f21e515068d2a995793178",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:12:15.135Z",
+    "expiraEm": "2026-10-24T12:12:15.135Z"
+  },
+  {
+    "token": "369531e311c25ef170d99a6f10fbbc85a5107f7d6ce20627231d5750651dc48f",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:12:15.266Z",
+    "expiraEm": "2026-10-24T12:12:15.266Z"
+  },
+  {
+    "token": "246858168255554cd23b5b938916dee68392ef74a190b09a15ed7543cd25d8bb",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:12:26.566Z",
+    "expiraEm": "2026-10-24T12:12:26.566Z"
+  },
+  {
+    "token": "d93fb1150ac92f38de5f4fa0584c9bb2621649edd65507a4d226194c7b8ac32e",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:12:26.669Z",
+    "expiraEm": "2026-10-24T12:12:26.669Z"
+  },
+  {
+    "token": "144bcc660951613ac3caadd4e1ac5fbda9c2294575926ded673398c14e4ce7f6",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T12:12:26.727Z",
+    "expiraEm": "2026-10-24T12:12:26.727Z"
+  },
+  {
+    "token": "889d4d3378c5956e68245064ac201b6f911c28ad314ba629d2af99e6ae6574aa",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T12:12:26.780Z",
+    "expiraEm": "2026-10-24T12:12:26.780Z"
+  },
+  {
+    "token": "1ed23208550e19a5adbd7bc0e1b2b6fde444f9f70f5419ca0856dca9d59b2903",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:12:26.901Z",
+    "expiraEm": "2026-10-24T12:12:26.901Z"
+  },
+  {
+    "token": "31c170d630da2a7f41a5f775b45872f4f63fe607e932bf031abc04a6e25d5d5b",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:12:27.031Z",
+    "expiraEm": "2026-10-24T12:12:27.031Z"
+  },
+  {
+    "token": "3acdd6192e03f9712fd8f2b1ae0362eb22fdca9522c8b167f0c1c7e4275670b6",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:12:53.182Z",
+    "expiraEm": "2026-10-24T12:12:53.182Z"
+  },
+  {
+    "token": "8e6801de9777fa18c0791f04b9f90301fdfbdba626bb9a12e03cff0bfafd8b5f",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:12:53.266Z",
+    "expiraEm": "2026-10-24T12:12:53.266Z"
+  },
+  {
+    "token": "cba52d9821680b9ab6988c38fae4a790e8238e3973814cf515ac3e1ad5bcd8ab",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-17T12:12:53.332Z",
+    "expiraEm": "2026-10-24T12:12:53.332Z"
+  },
+  {
+    "token": "dbf94858393ba00dcac3a198f095f83551adc7708a6891b9ef2a24be7dbbe65c",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-17T12:12:53.386Z",
+    "expiraEm": "2026-10-24T12:12:53.386Z"
+  },
+  {
+    "token": "505267d506deb964db3660367781077fd80410638be4b68741230665d164d3ac",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-17T12:12:53.508Z",
+    "expiraEm": "2026-10-24T12:12:53.508Z"
+  },
+  {
+    "token": "c58f6934c315ed6103cf51cb229d828b408aea7b09d8469509b3767701865ab0",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-17T12:12:53.638Z",
+    "expiraEm": "2026-10-24T12:12:53.638Z"
+  },
+  {
+    "token": "444d8bac490e940e3cf984c6972a22b4054663ae4bdd98aa392fa6e02bfda530",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:07:01.669Z",
+    "expiraEm": "2026-10-25T13:07:01.669Z"
+  },
+  {
+    "token": "85948dc99c26f5e244ea461de933c47120439c03c4f5c922271fa3f70c1dc137",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:07:01.860Z",
+    "expiraEm": "2026-10-25T13:07:01.860Z"
+  },
+  {
+    "token": "cbf8399084e48d39c44552d7d9268747b539bd6f4c06d06b3cf2137d16d6b10e",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:07:01.955Z",
+    "expiraEm": "2026-10-25T13:07:01.955Z"
+  },
+  {
+    "token": "6841c2cf4c252a983625977df17b2d4dd410f282d1c8f61f4b508cea4730840c",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:07:02.148Z",
+    "expiraEm": "2026-10-25T13:07:02.148Z"
+  },
+  {
+    "token": "1cd01418d5d4c1a63aedac54071b4fca84fa27c6f45b0016386fa0963cd1eaea",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:07:02.667Z",
+    "expiraEm": "2026-10-25T13:07:02.667Z"
+  },
+  {
+    "token": "243d0ec1766eecc901813323e48e86a5b6934f5e685116a724ad1f028f787da4",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:07:02.980Z",
+    "expiraEm": "2026-10-25T13:07:02.980Z"
+  },
+  {
+    "token": "82140256bd4506fce792bb873a901a6363a79d2e602c9355e7642e3ab2266239",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:07:44.808Z",
+    "expiraEm": "2026-10-25T13:07:44.808Z"
+  },
+  {
+    "token": "1897547efa1273d1896272f3cf09736ad738d90be74a4c1106d5c5ec9bb46d9b",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:07:44.896Z",
+    "expiraEm": "2026-10-25T13:07:44.896Z"
+  },
+  {
+    "token": "7d6e8b46d765907db3da22cfe9b72eb3ed65b39c75b36c59af42a9bb92f9c09f",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:07:44.950Z",
+    "expiraEm": "2026-10-25T13:07:44.950Z"
+  },
+  {
+    "token": "a54568f3dbb0c6d6a975fd1df3dd1c8d5551f243ade5ba0673d2776e9add6468",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:07:45.002Z",
+    "expiraEm": "2026-10-25T13:07:45.002Z"
+  },
+  {
+    "token": "925612d298ca2ee1e2063752653e0e8841235a5cd50a012f646958f930fb6f5d",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:07:45.141Z",
+    "expiraEm": "2026-10-25T13:07:45.141Z"
+  },
+  {
+    "token": "113f2ed49e458a6332f22cd00f01fc8587ae2434e445a94cbf6ec5f4d820f2a0",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:07:45.283Z",
+    "expiraEm": "2026-10-25T13:07:45.283Z"
+  },
+  {
+    "token": "18aae48299547e7514df9b2eb36be3c71017e4d72be843d4296a2ed0a337ed0f",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:29:06.293Z",
+    "expiraEm": "2026-10-25T13:29:06.293Z"
+  },
+  {
+    "token": "356e697e3b1cddb7d98330765faba2bb5e5b285ef138d71a2fb4d87b7b14e99f",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:29:06.381Z",
+    "expiraEm": "2026-10-25T13:29:06.381Z"
+  },
+  {
+    "token": "308ac01a32cc57eed3a50c3c781ed78ed6e893cc1a8dd0af898dc656c8324139",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:29:06.440Z",
+    "expiraEm": "2026-10-25T13:29:06.440Z"
+  },
+  {
+    "token": "1021923b95d61c744e4d20ed6d9270c0cec798ac09907e4d350f6c6c40e410ee",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:29:06.493Z",
+    "expiraEm": "2026-10-25T13:29:06.493Z"
+  },
+  {
+    "token": "8e281da1fb1d4f08fb88fc404c45c97bc4f5a6d247ecdafb25e56b7f70dedd52",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:29:06.623Z",
+    "expiraEm": "2026-10-25T13:29:06.623Z"
+  },
+  {
+    "token": "813586ff25bf65c50ca4d7af8357df8fe186d6380824973f23f7411644b29827",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:29:06.756Z",
+    "expiraEm": "2026-10-25T13:29:06.756Z"
+  },
+  {
+    "token": "b7b1908565baf7211c296591667f86233192020194ac50c55570fe5d87cc7b24",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:30:37.244Z",
+    "expiraEm": "2026-10-25T13:30:37.244Z"
+  },
+  {
+    "token": "714e5df1d887da80c3cea0132f006c0b1a26f2624459e4f35432f893fce82153",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:30:37.329Z",
+    "expiraEm": "2026-10-25T13:30:37.329Z"
+  },
+  {
+    "token": "7266e23c6cc5e21b62e50f4f0351baae9bca8663d035024396692747a0903bfb",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:30:37.383Z",
+    "expiraEm": "2026-10-25T13:30:37.383Z"
+  },
+  {
+    "token": "d4a810e74beb6dc1247c923e99a15a5176c3d9be31c7ba15cc66b094108f36f7",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:30:37.438Z",
+    "expiraEm": "2026-10-25T13:30:37.438Z"
+  },
+  {
+    "token": "552a1a2c0648ced3697efdb1859ca494809708488035438259fd58ec5d03402d",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:30:37.558Z",
+    "expiraEm": "2026-10-25T13:30:37.558Z"
+  },
+  {
+    "token": "b684f6c062ee6c9cf09f8293b877672f063415a20a920c32a67694046c6506bf",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:30:37.694Z",
+    "expiraEm": "2026-10-25T13:30:37.694Z"
+  },
+  {
+    "token": "33992942f5bc1a9f1b2f3dda41b8623e5ba572cf1d35e70b7a2db92bccf48b32",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:30:55.003Z",
+    "expiraEm": "2026-10-25T13:30:55.003Z"
+  },
+  {
+    "token": "62a235b70e13e559889817a808fc579e119cf9aead3529be1ec0bc587ee2b35b",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:30:55.097Z",
+    "expiraEm": "2026-10-25T13:30:55.097Z"
+  },
+  {
+    "token": "10b60038fcc87ec391fec268f9311e314bc2547ce132057be0fb53e838d28f82",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:30:55.152Z",
+    "expiraEm": "2026-10-25T13:30:55.152Z"
+  },
+  {
+    "token": "68f4938b9a57e22e857c95eaf327e099e261e4ceb87e81e0a6d66b8c2058b040",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:30:55.205Z",
+    "expiraEm": "2026-10-25T13:30:55.205Z"
+  },
+  {
+    "token": "2d2b5a01b5f164aedec33a2154084f5ef51271d074c871395610bd58c36fb141",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:30:55.334Z",
+    "expiraEm": "2026-10-25T13:30:55.334Z"
+  },
+  {
+    "token": "992c30e64244640dd3dce6efce8b3ae86a271fa262407eda6ca148b50dc05a3b",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:30:55.466Z",
+    "expiraEm": "2026-10-25T13:30:55.466Z"
+  },
+  {
+    "token": "435155eaf838046d736cffc23e70ca9822d44272d3b65e63646ba7c166334fca",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:31:34.445Z",
+    "expiraEm": "2026-10-25T13:31:34.445Z"
+  },
+  {
+    "token": "df03d64cb0068eeb1555fa61bcb64455180e1f4c7ac45abfa451bfa9993815e1",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:31:34.535Z",
+    "expiraEm": "2026-10-25T13:31:34.535Z"
+  },
+  {
+    "token": "fc5005bbb4d89b793d295353d0ac778f5438d4460cdd65a9c578c1fbd0dc9b0c",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:31:34.589Z",
+    "expiraEm": "2026-10-25T13:31:34.589Z"
+  },
+  {
+    "token": "a0d57af3c83f8a7450073d86cd567be8e811e488a68c16b26f9fb74108d26a9b",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:31:34.641Z",
+    "expiraEm": "2026-10-25T13:31:34.641Z"
+  },
+  {
+    "token": "5526515b963ef61f84de3342d73273ad07b3e66cd5eac766112e17d2cf1ed069",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:31:34.778Z",
+    "expiraEm": "2026-10-25T13:31:34.778Z"
+  },
+  {
+    "token": "01cabc4e2b7a6b93ccd0dcd85f326a4f5617655a575643dc3506dd3bdd42811c",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:31:34.911Z",
+    "expiraEm": "2026-10-25T13:31:34.911Z"
+  },
+  {
+    "token": "9106bbf6d1a7c0814c9d8e71c0e0273bda42027ef7fdd54a8090baefe523e003",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:31:58.548Z",
+    "expiraEm": "2026-10-25T13:31:58.548Z"
+  },
+  {
+    "token": "fe21260cd446d30439e8d75dbc707bdf5b3890c714fd622ce9a208247e4a4619",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:31:58.633Z",
+    "expiraEm": "2026-10-25T13:31:58.633Z"
+  },
+  {
+    "token": "61e2e4d6b7401cd38012de6fa04055db7c4c02aa9901a5c09db4d3a114fa946d",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:31:58.688Z",
+    "expiraEm": "2026-10-25T13:31:58.688Z"
+  },
+  {
+    "token": "5128f7782fa144a314db1394c6966f8038f0b4f8a0397357014e3ea1760a5675",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:31:58.743Z",
+    "expiraEm": "2026-10-25T13:31:58.743Z"
+  },
+  {
+    "token": "a56f567fd74b393da4210d0d9764ad75ead0b8b4c93ed16e455d742cc17b8c42",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:31:58.870Z",
+    "expiraEm": "2026-10-25T13:31:58.870Z"
+  },
+  {
+    "token": "2a95ddd267949df20db8012df125315890bb1b3935f34788dcae831ebcfef9f0",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:31:59.002Z",
+    "expiraEm": "2026-10-25T13:31:59.002Z"
+  },
+  {
+    "token": "947a75e24fb53a4f9a7b2fbce16c4bcac79ec0adac4b5a5d75b0e1c9f55f34b9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:32:14.439Z",
+    "expiraEm": "2026-10-25T13:32:14.439Z"
+  },
+  {
+    "token": "1038f6ae1d2811b0e7e91981aa3073528be09edd8f58c44d5b89246a64984ee2",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:32:14.526Z",
+    "expiraEm": "2026-10-25T13:32:14.526Z"
+  },
+  {
+    "token": "37c0539d54d0042af1ca76b4d3e9fcd26e5d0eecbdf52cdf262a59313e300d3f",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:32:14.580Z",
+    "expiraEm": "2026-10-25T13:32:14.580Z"
+  },
+  {
+    "token": "52f0a74e02eb1fcf69fa79605238d5e6f12698f46369cab0c65cd83a45662944",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:32:14.632Z",
+    "expiraEm": "2026-10-25T13:32:14.632Z"
+  },
+  {
+    "token": "31a7dc1ecaab591f1d84a93d6a62108d170de3243b2a571939cad7e08eda16e4",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:32:14.763Z",
+    "expiraEm": "2026-10-25T13:32:14.763Z"
+  },
+  {
+    "token": "e5683399b5878db11961cb6ff40ce238cb768989773ea80c34fefcbf08fa0633",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:32:14.896Z",
+    "expiraEm": "2026-10-25T13:32:14.896Z"
+  },
+  {
+    "token": "61730fbfb51638df423aef2345f6ff84e3abadd873c8a926e7e5725723171cf6",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:32:35.797Z",
+    "expiraEm": "2026-10-25T13:32:35.797Z"
+  },
+  {
+    "token": "52053f60e5d52882499e51184a874f10f88dc30ce33aaf9a9897113fca95a90c",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:32:35.884Z",
+    "expiraEm": "2026-10-25T13:32:35.884Z"
+  },
+  {
+    "token": "50e930431ed3b0a3f571cc540eb59fb4e9df109598fb248c51ec282a76fd1eb3",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:32:35.939Z",
+    "expiraEm": "2026-10-25T13:32:35.939Z"
+  },
+  {
+    "token": "f2d9122f227804648b029baad89eef0477f6c0dc503f33eb0a93fdadab743b18",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:32:35.997Z",
+    "expiraEm": "2026-10-25T13:32:35.997Z"
+  },
+  {
+    "token": "11243f9729df180930d59a2ab65186d54f43d89f9a5c3af97b5c9793f466a53b",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:32:36.133Z",
+    "expiraEm": "2026-10-25T13:32:36.133Z"
+  },
+  {
+    "token": "595d384bb9e501f61671c0f45f3c7ada73a35febb92feec3659837d4d56b80ed",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:32:36.268Z",
+    "expiraEm": "2026-10-25T13:32:36.268Z"
+  },
+  {
+    "token": "ade0d8866fba3caace0f0cd718f78108dee374aaa680f250ff23ba5d506c62d9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:32:48.572Z",
+    "expiraEm": "2026-10-25T13:32:48.572Z"
+  },
+  {
+    "token": "6564992902fe3eeeb879c18f6075b9e9af56bfb79567141a0483a78663804336",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:32:48.649Z",
+    "expiraEm": "2026-10-25T13:32:48.649Z"
+  },
+  {
+    "token": "d2b689b7bf227b72c3d7f3358dc7bf21bc14696bde90b0e45b9536c42c5d065c",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:32:48.702Z",
+    "expiraEm": "2026-10-25T13:32:48.702Z"
+  },
+  {
+    "token": "a0eb3eb19b999cc452701e6741668c3809aa47727b0fc96b48ce094ab0191642",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:32:48.758Z",
+    "expiraEm": "2026-10-25T13:32:48.758Z"
+  },
+  {
+    "token": "27bce7d4e6534b5d0feea108dcbd30e84e225caf69dabb6708aa3a0ffb2ef481",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:32:48.886Z",
+    "expiraEm": "2026-10-25T13:32:48.886Z"
+  },
+  {
+    "token": "ac7c1c90fb93c845171d8ddd2c14e59d9dfb86a13187b1a2592f2ac02069dfaf",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:32:49.013Z",
+    "expiraEm": "2026-10-25T13:32:49.013Z"
+  },
+  {
+    "token": "4639fc68f9828ec064c43d105b7d2c21795b5a4d818757f777bb975fe1291e06",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:33:10.247Z",
+    "expiraEm": "2026-10-25T13:33:10.247Z"
+  },
+  {
+    "token": "a8ac273644abfa9ecf75bfeb2ed9eff3c86029abbd8e72a59756355e52510968",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:33:10.336Z",
+    "expiraEm": "2026-10-25T13:33:10.336Z"
+  },
+  {
+    "token": "57d60fdfa49d1f4bd5784b49cec5296e1d408eae8286b97876e91de517e1024a",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:33:10.391Z",
+    "expiraEm": "2026-10-25T13:33:10.391Z"
+  },
+  {
+    "token": "413e24de90875a2f1b394e2537b5c348669304db2d2fb77da33fdf068f33a08c",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:33:10.448Z",
+    "expiraEm": "2026-10-25T13:33:10.448Z"
+  },
+  {
+    "token": "25f1de46e0226be9c3dde2fe57507bf8314d42ae14375be91c531c7e35a910c9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:33:10.579Z",
+    "expiraEm": "2026-10-25T13:33:10.579Z"
+  },
+  {
+    "token": "41371a44864db84a6dccd51f5b628a3c21cd15f5a67dd9e820a8fa40652df098",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:33:10.712Z",
+    "expiraEm": "2026-10-25T13:33:10.712Z"
+  },
+  {
+    "token": "3055fd969103269dda31cdb5cf60d62feb0e9cafc251b65536c1b0b12472421b",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:44:18.480Z",
+    "expiraEm": "2026-10-25T13:44:18.480Z"
+  },
+  {
+    "token": "9900074b8d9209df26b03580392ae1afca9c619c07ef5b0a018dfdb571ffd6b6",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:44:18.566Z",
+    "expiraEm": "2026-10-25T13:44:18.566Z"
+  },
+  {
+    "token": "96f71382574a628304822c93eae3a1b49a969337a995024a3ca4a00ee38e14ab",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:44:18.620Z",
+    "expiraEm": "2026-10-25T13:44:18.620Z"
+  },
+  {
+    "token": "987a83997d4dedfcc8f6f6c2c241d5ae44673b29d7b80076d114afe805a75ac5",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:44:18.681Z",
+    "expiraEm": "2026-10-25T13:44:18.681Z"
+  },
+  {
+    "token": "525fe78caf4dd31ff8edef5def13c748dd8ea489bc0211c446a16e01570f9198",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:44:18.810Z",
+    "expiraEm": "2026-10-25T13:44:18.810Z"
+  },
+  {
+    "token": "75f4429362579679aaf60fe5f66490ad7101edea7073a06b47d8d4a6f9b57173",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:44:18.938Z",
+    "expiraEm": "2026-10-25T13:44:18.938Z"
+  },
+  {
+    "token": "35ab24ac45c2e313fb5e8011e8e08a86667accfaa277dbf8aa7435db15cad9cd",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:48:29.575Z",
+    "expiraEm": "2026-10-25T13:48:29.575Z"
+  },
+  {
+    "token": "3de9dd7174956396a1449eb0c7fd2578be87db191097c348a73bf760c827bd24",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:48:29.667Z",
+    "expiraEm": "2026-10-25T13:48:29.667Z"
+  },
+  {
+    "token": "51a98b766fcd26c78d8e18bdabe1b4523d50beab3d0682ae004d19d02691abfd",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:48:29.722Z",
+    "expiraEm": "2026-10-25T13:48:29.722Z"
+  },
+  {
+    "token": "71fdb038df709d4fd2cec771ff2e591fdd8dcbeb7cd127385383c300b3cca07c",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:48:29.782Z",
+    "expiraEm": "2026-10-25T13:48:29.782Z"
+  },
+  {
+    "token": "663429c48d8dd23f854671113d6acc65eb8f3ca3f1d9cb961a6eeac47c9baf6c",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:48:29.920Z",
+    "expiraEm": "2026-10-25T13:48:29.920Z"
+  },
+  {
+    "token": "f54afb668259f2d2be2350471c0e166770efccadbf935b17479ced5f6d461022",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:48:30.053Z",
+    "expiraEm": "2026-10-25T13:48:30.053Z"
+  },
+  {
+    "token": "29009776d47477fc9487ce75f118c8875f947a3ee4972bcc9b01ddc71ea9fa1b",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:48:48.001Z",
+    "expiraEm": "2026-10-25T13:48:48.000Z"
+  },
+  {
+    "token": "0278d68d7f619c1930523ec46ba04f89cf225970e8b925ea3175ee392da90042",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:48:48.086Z",
+    "expiraEm": "2026-10-25T13:48:48.086Z"
+  },
+  {
+    "token": "106283513670c390ac14f7909479a6406c06b64f9290d94c9c02277373671b10",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:48:48.142Z",
+    "expiraEm": "2026-10-25T13:48:48.142Z"
+  },
+  {
+    "token": "6ac5e66a66c0c2dfbf910e60e82eda7487aafc91c13c29a7015f487000744b6c",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:48:48.206Z",
+    "expiraEm": "2026-10-25T13:48:48.206Z"
+  },
+  {
+    "token": "f29dd81a17d65c107eadaabfe225c2b2778154749beb55d699e8b3ccf35c7807",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:48:48.341Z",
+    "expiraEm": "2026-10-25T13:48:48.341Z"
+  },
+  {
+    "token": "9ec8586357109968321db1508ce790cb9be7e65f6e031e94093461a5d2feb214",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:48:48.471Z",
+    "expiraEm": "2026-10-25T13:48:48.471Z"
+  },
+  {
+    "token": "9fc29ca5fefd8ec014fbab055ed88b4fbb95eb8e7ed3f597e6927f0b8aea8840",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:53:47.539Z",
+    "expiraEm": "2026-10-25T13:53:47.539Z"
+  },
+  {
+    "token": "1d0df169295798a388e8a86f0671eac5047c1d817ab5476680c4a882782115f3",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:53:47.627Z",
+    "expiraEm": "2026-10-25T13:53:47.626Z"
+  },
+  {
+    "token": "e7926449bde6ac76ab11a04bd6de92f2cbf12bfd79a0cec9d2a2a437a77bdf98",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:53:47.685Z",
+    "expiraEm": "2026-10-25T13:53:47.685Z"
+  },
+  {
+    "token": "1ee73b504844d78e29173ff0b4713a9a907155d0dd071edaa30147dc7760795a",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:53:47.745Z",
+    "expiraEm": "2026-10-25T13:53:47.745Z"
+  },
+  {
+    "token": "e5d81498a0bc5e2d7e1655e2846881dc099af07d490403ecf6a32b1d5df65707",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:53:47.876Z",
+    "expiraEm": "2026-10-25T13:53:47.876Z"
+  },
+  {
+    "token": "f5068053368868f900e22982aa8c696b7024308919775f29b9ac0cc45e160edb",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:53:48.005Z",
+    "expiraEm": "2026-10-25T13:53:48.005Z"
+  },
+  {
+    "token": "c7e3cfec7f462ce52d7778b7a25013dea5381ab76b0b606bb52c6a2394415a88",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:54:54.872Z",
+    "expiraEm": "2026-10-25T13:54:54.872Z"
+  },
+  {
+    "token": "729114d1bb2050adba133ee21574147399605bfc2d06c133e361bbc8e757a276",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:54:54.960Z",
+    "expiraEm": "2026-10-25T13:54:54.960Z"
+  },
+  {
+    "token": "f929db05a1263111212380ae82aa144ca6b76b4473ee00df0b557054d4845a8c",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T13:54:55.018Z",
+    "expiraEm": "2026-10-25T13:54:55.018Z"
+  },
+  {
+    "token": "9f9b97a3afc525c011361970ff9db3853ca681a3e1263c19a8861c79425211d6",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T13:54:55.077Z",
+    "expiraEm": "2026-10-25T13:54:55.077Z"
+  },
+  {
+    "token": "5f4b82a00eb2b2ee72882eed45665c516e3ae1e7601411eff341f7e69def8a97",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T13:54:55.219Z",
+    "expiraEm": "2026-10-25T13:54:55.219Z"
+  },
+  {
+    "token": "4f0dd345761c05ed988edd1823657ce610507d006ca7c51d376cabdd034c5cb7",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T13:54:55.349Z",
+    "expiraEm": "2026-10-25T13:54:55.349Z"
+  },
+  {
+    "token": "4f362be70fc71b7225093b0c0ce4933b6af266817fa4cf6dbcfda35f10a413df",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T14:10:14.908Z",
+    "expiraEm": "2026-10-25T14:10:14.908Z"
+  },
+  {
+    "token": "4b22e9c210b42577ea4041ab0f5ad209082376f285811c2b968bb0bfa42cc731",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T14:10:15.003Z",
+    "expiraEm": "2026-10-25T14:10:15.003Z"
+  },
+  {
+    "token": "465d9b85ae29912f62d6eae89ad0d2b4621df9ff7712629ad2293564f763e9ef",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-18T14:10:15.060Z",
+    "expiraEm": "2026-10-25T14:10:15.060Z"
+  },
+  {
+    "token": "45c6e56f39f0032c4089575cd33f1de72f85879101ae27da2f9fa8a11f9c17e4",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-18T14:10:15.124Z",
+    "expiraEm": "2026-10-25T14:10:15.124Z"
+  },
+  {
+    "token": "a8564a2a6cf15dad537f7f7602a1de14a46f2d1ba58e610bf4154a3ab20cece2",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-18T14:10:15.264Z",
+    "expiraEm": "2026-10-25T14:10:15.264Z"
+  },
+  {
+    "token": "a79f18882f76d4b0aa3a1da886fd98679fe2f8e1ee77bd2c9be9b2186658ca93",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-18T14:10:15.395Z",
+    "expiraEm": "2026-10-25T14:10:15.395Z"
+  },
+  {
+    "token": "9ebf03e58fd2dae8cdc02b8e263b89398ac715f5d298e2febd58257df6f47d89",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T09:30:06.730Z",
+    "expiraEm": "2026-10-26T09:30:06.730Z"
+  },
+  {
+    "token": "8892c4818999ca81ca93b1d13f3f2a251889692c484a3b02a36797d98420cd87",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T09:30:06.821Z",
+    "expiraEm": "2026-10-26T09:30:06.821Z"
+  },
+  {
+    "token": "6f51dc5faecc6901c630a281cb8124c6ea31c925d1b24160eda00636dc67c5a2",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T09:30:06.877Z",
+    "expiraEm": "2026-10-26T09:30:06.877Z"
+  },
+  {
+    "token": "bbb28f148f817c2dcac127c38ad069ce8532fac0f8ba4420f1a785dac600977b",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T09:30:06.941Z",
+    "expiraEm": "2026-10-26T09:30:06.941Z"
+  },
+  {
+    "token": "686bd24f76adc74239797cc051143098e9fdbe8974983d5c4b3878af234d16e6",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T09:30:07.080Z",
+    "expiraEm": "2026-10-26T09:30:07.080Z"
+  },
+  {
+    "token": "78de89e657c1024b9edee93841f790719eeb941fa36679db0d18273da42d7e69",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T09:30:07.216Z",
+    "expiraEm": "2026-10-26T09:30:07.216Z"
+  },
+  {
+    "token": "5ed40e6890f158c11cf1baac53df3b923597074346a1e7e9f797a532799ce686",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T09:31:27.981Z",
+    "expiraEm": "2026-10-26T09:31:27.981Z"
+  },
+  {
+    "token": "de68fa67a0457b0dde7318660ef77f9af1893d7cf78f6ed835d2ff60494f98bd",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T09:31:28.074Z",
+    "expiraEm": "2026-10-26T09:31:28.073Z"
+  },
+  {
+    "token": "29cb29515231034a17bfb75c9619a9017810d0ed199edbdc6806e6a5f28488e1",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T09:31:28.131Z",
+    "expiraEm": "2026-10-26T09:31:28.131Z"
+  },
+  {
+    "token": "dd133ef0107b9300e9d9d638470a9a2e1107b7e798ee39a1867188a735417a02",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T09:31:28.194Z",
+    "expiraEm": "2026-10-26T09:31:28.194Z"
+  },
+  {
+    "token": "78bfec87a6113e5eb33cdd494229dce770982fa38693497f284c68d518a26fc9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T09:31:28.356Z",
+    "expiraEm": "2026-10-26T09:31:28.356Z"
+  },
+  {
+    "token": "6ed3f046fcb5bf09f14940d58e95aa4332e46b6056b37350e66bb5351835f8fe",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T09:31:28.494Z",
+    "expiraEm": "2026-10-26T09:31:28.494Z"
+  },
+  {
+    "token": "d32189fe8358388072fb7a0110ee25068a8d98c0437f4d9b72942f55a7238125",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T09:43:38.025Z",
+    "expiraEm": "2026-10-26T09:43:38.025Z"
+  },
+  {
+    "token": "b142fc915ed61b7b91f89abcb80cc2fa4df67657fa15f5d654087be1939a14a4",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T09:43:38.113Z",
+    "expiraEm": "2026-10-26T09:43:38.113Z"
+  },
+  {
+    "token": "802d4ece88940d907b58a104d9554eee05f6c53e9a0aa853e0a176cca9ce13be",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T09:43:38.166Z",
+    "expiraEm": "2026-10-26T09:43:38.166Z"
+  },
+  {
+    "token": "6a9b509d30f9649598a16656427674c50740afc4862c703e4196d53031020adf",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T09:43:38.226Z",
+    "expiraEm": "2026-10-26T09:43:38.226Z"
+  },
+  {
+    "token": "51f967794426a59653d62351aecdcf10f77ce2d62b879ad2044cdfdac3bd72f0",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T09:43:38.364Z",
+    "expiraEm": "2026-10-26T09:43:38.364Z"
+  },
+  {
+    "token": "22f775331020144f791be1b8891fc156cd3a66daa2c78ad87ce9e266b5bcd560",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T09:43:38.494Z",
+    "expiraEm": "2026-10-26T09:43:38.494Z"
+  },
+  {
+    "token": "e14e308ac4e39306fef855c16d1c45fa6e28ba6e2468441453f7a2b7925a233f",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T10:07:08.033Z",
+    "expiraEm": "2026-10-26T10:07:08.033Z"
+  },
+  {
+    "token": "4c3aa9e770913ff29077f99937533c020a71ee5fdec89d50727ef7318583ed19",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T10:07:08.137Z",
+    "expiraEm": "2026-10-26T10:07:08.137Z"
+  },
+  {
+    "token": "0e15f1d578ccfc7ec3fe48b5fedb297419c7195b6ca9a6c37f56a9f71aa39bf1",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T10:07:08.195Z",
+    "expiraEm": "2026-10-26T10:07:08.195Z"
+  },
+  {
+    "token": "516b813c5a93ce1a81f7b9fe4d9d96477fbac097d7fff06f1b6e0c1fdcba2ad9",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T10:07:08.262Z",
+    "expiraEm": "2026-10-26T10:07:08.262Z"
+  },
+  {
+    "token": "a6fb13e29b480389b2ee6f3b33ac4690e9086191831dd801449801b5276bfe5a",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T10:07:08.411Z",
+    "expiraEm": "2026-10-26T10:07:08.411Z"
+  },
+  {
+    "token": "8962dcc5a209e86d0cf27adf9e8914d4a99ee085c40670f09c6ec9807be2c971",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T10:07:08.543Z",
+    "expiraEm": "2026-10-26T10:07:08.543Z"
+  },
+  {
+    "token": "cce25348feffd485e363846744ebf5c0f59752510e9e8fb6a54e36302bb7289a",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T10:19:55.156Z",
+    "expiraEm": "2026-10-26T10:19:55.156Z"
+  },
+  {
+    "token": "86ce48ec3d2c1ee78179a955d027734d075959c80cf1562494eeac2dea737a4d",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T10:19:55.247Z",
+    "expiraEm": "2026-10-26T10:19:55.247Z"
+  },
+  {
+    "token": "ac03355936d93c5246ac7a01a7abcb945ba0659494fe968688c700fdf5e09763",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T10:19:55.303Z",
+    "expiraEm": "2026-10-26T10:19:55.303Z"
+  },
+  {
+    "token": "9818028470b9ed708d3b25805d761109f3e474409b73f271900fe4daa4ac3a6f",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T10:19:55.364Z",
+    "expiraEm": "2026-10-26T10:19:55.364Z"
+  },
+  {
+    "token": "e273d141cc7ff182263a193772e451cc9f1fd9107eb88c9a4759739197881a8d",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T10:19:55.507Z",
+    "expiraEm": "2026-10-26T10:19:55.507Z"
+  },
+  {
+    "token": "581b09e1d32d5faaa1d258c6ed4702c90dd80d37329f48338a2eed73d417ade4",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T10:19:55.635Z",
+    "expiraEm": "2026-10-26T10:19:55.635Z"
+  },
+  {
+    "token": "20238f7dd30f3f518cf1d9c14aa5950c532abfc776d26cf01b89af736e02cfbe",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T10:25:43.407Z",
+    "expiraEm": "2026-10-26T10:25:43.407Z"
+  },
+  {
+    "token": "871c1c9bc88ef1074da49a1e0eb1f9831fe86509691c66d352364e794bbc8930",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T10:25:43.499Z",
+    "expiraEm": "2026-10-26T10:25:43.499Z"
+  },
+  {
+    "token": "a5dc3dc55fda874c7ccc01ccad6b6dc5a821444f249620eb7edb395d22596466",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T10:25:43.558Z",
+    "expiraEm": "2026-10-26T10:25:43.558Z"
+  },
+  {
+    "token": "032832365f7630a947f15d9ef722d815f4657deaaef8e0f8558ee6aa366d7146",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T10:25:43.615Z",
+    "expiraEm": "2026-10-26T10:25:43.615Z"
+  },
+  {
+    "token": "ad94eb74b4386defb8d1fd208659f64f845e0aacb4a6ba537d9fb444de4282c1",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T10:25:43.759Z",
+    "expiraEm": "2026-10-26T10:25:43.759Z"
+  },
+  {
+    "token": "b9a10c41e7b4dce35ad989492360af29ce15e95d4110138e586a6fa32edfb042",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T10:25:43.892Z",
+    "expiraEm": "2026-10-26T10:25:43.892Z"
+  },
+  {
+    "token": "2cdf896ba000a5e254af0caafcf9a86e994ccd3805d9812781b8990eb0bf23d9",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T10:26:13.500Z",
+    "expiraEm": "2026-10-26T10:26:13.500Z"
+  },
+  {
+    "token": "2c2c5223c3a61531908f6e01a29ae8bd11e6c4a3da884f7cc7a62b1c395f3a6e",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T10:26:13.592Z",
+    "expiraEm": "2026-10-26T10:26:13.592Z"
+  },
+  {
+    "token": "ded252359bd244b3cf317837e6396e11f06cc1989524916a56a51d40104edb66",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T10:26:13.653Z",
+    "expiraEm": "2026-10-26T10:26:13.653Z"
+  },
+  {
+    "token": "a555727dbb481ac819695edcae2364b608795cff05c4b4da8265738a0f42e689",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T10:26:13.711Z",
+    "expiraEm": "2026-10-26T10:26:13.711Z"
+  },
+  {
+    "token": "b1297333a19a6b32166539b44a3186231e353fba55aae41edca4957c1b97e4d6",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T10:26:13.867Z",
+    "expiraEm": "2026-10-26T10:26:13.867Z"
+  },
+  {
+    "token": "b1f595fb36875789617d6879c4b611e2c9f8c85fd82b239c74961034f12cd10c",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T10:26:14.002Z",
+    "expiraEm": "2026-10-26T10:26:14.002Z"
+  },
+  {
+    "token": "6646bdf33867e69740e519e9e83c6b08ec546c17bf9d37b0a95931df7dc5c53d",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:27:28.008Z",
+    "expiraEm": "2026-10-26T20:27:28.008Z"
+  },
+  {
+    "token": "c5d23b505e17519ec4edd9f42f0e44ba858e6409d7a4b75d7ebb0948d9cc0a25",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:27:28.103Z",
+    "expiraEm": "2026-10-26T20:27:28.103Z"
+  },
+  {
+    "token": "0dd07d2447d32f298834964840b271ecdcacfd991074b25e8dc59e3ee264e694",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:27:28.161Z",
+    "expiraEm": "2026-10-26T20:27:28.161Z"
+  },
+  {
+    "token": "52a8590ff61c98d965e4969c92183151cadc17b3150c79f1b062de10ec62bceb",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:27:28.219Z",
+    "expiraEm": "2026-10-26T20:27:28.219Z"
+  },
+  {
+    "token": "8a69f9f5d95962a371bec938c2645e501222d1c9d792a8573b0011eb570ab3b6",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:27:28.368Z",
+    "expiraEm": "2026-10-26T20:27:28.368Z"
+  },
+  {
+    "token": "d8a5315e6ace05aaf21d3e117b52afd2c981996134e86c90a07977804d158c7b",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:27:28.496Z",
+    "expiraEm": "2026-10-26T20:27:28.496Z"
+  },
+  {
+    "token": "ac60b2009d529a5f69836161ca60ff9edcfc1ca4933d59426abe97f1353e32a8",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:28:18.219Z",
+    "expiraEm": "2026-10-26T20:28:18.219Z"
+  },
+  {
+    "token": "7ed3a237627f6dd8aecce7d5792f1fbab181fb63dd2cc969f4bbd7f68eaf3380",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:28:18.310Z",
+    "expiraEm": "2026-10-26T20:28:18.310Z"
+  },
+  {
+    "token": "d60d9477f106b30d9b9b279a09954668363ac53bd1fb282e3b2e42f04c545fd1",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:28:18.370Z",
+    "expiraEm": "2026-10-26T20:28:18.370Z"
+  },
+  {
+    "token": "69a6d2ad859a3f9300b20da0590044b96aaaa7d05088a271a22370aee8b7fbcf",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:28:18.429Z",
+    "expiraEm": "2026-10-26T20:28:18.429Z"
+  },
+  {
+    "token": "662fddadd52e50b95f8dedf68890f6bcceeb8875708173ae3c85a46dbd583561",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:28:18.590Z",
+    "expiraEm": "2026-10-26T20:28:18.590Z"
+  },
+  {
+    "token": "0a5e8ed2697fafd7aae3680e3ec9b739d1b22115e214dba76742552c80b502d9",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:28:18.725Z",
+    "expiraEm": "2026-10-26T20:28:18.725Z"
+  },
+  {
+    "token": "8684a6ad3d690724f67dad33fa3a8005bcc1586e9a91b036ff3e8167087b7e6c",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:29:37.722Z",
+    "expiraEm": "2026-10-26T20:29:37.722Z"
+  },
+  {
+    "token": "54d1507bed47a2adc83b2ced0ab0168abe5af0be674f41697a8e56b818af5776",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:29:37.819Z",
+    "expiraEm": "2026-10-26T20:29:37.819Z"
+  },
+  {
+    "token": "8f03fc75de3b3a5bcb7b6b63e0ac8daf50ac9cc9aad79446b8d6d4eb300d1921",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:29:37.880Z",
+    "expiraEm": "2026-10-26T20:29:37.880Z"
+  },
+  {
+    "token": "ce059bd1e17b6a2bc763b1d85a196fe2b5edd97ac9ff2e1113d7e3758d86a47c",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:29:37.940Z",
+    "expiraEm": "2026-10-26T20:29:37.940Z"
+  },
+  {
+    "token": "cb499d1070b8c30ee01716cdacc9853c22ee87fbf348b8b7539cea42d71218a2",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:29:38.113Z",
+    "expiraEm": "2026-10-26T20:29:38.113Z"
+  },
+  {
+    "token": "a9778d337e01992ecb6ea5d8eb0d2d3d5dbcc718731a09efd36cbe58b28b1bc6",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:29:38.259Z",
+    "expiraEm": "2026-10-26T20:29:38.259Z"
+  },
+  {
+    "token": "10b7a114d3b0ff3b70f821709229a491a5b4f6dd7d8781e71b6ecab9f0126531",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:30:09.484Z",
+    "expiraEm": "2026-10-26T20:30:09.484Z"
+  },
+  {
+    "token": "3940d411bf1add16c844b4c3fd15564ef310be82f906585ecbf31f0f0bc5fdda",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:30:09.582Z",
+    "expiraEm": "2026-10-26T20:30:09.582Z"
+  },
+  {
+    "token": "c4d13a2b673d8718b585376fd35ecb1dabd2e77673112911805b645a993b2af0",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:30:09.662Z",
+    "expiraEm": "2026-10-26T20:30:09.661Z"
+  },
+  {
+    "token": "84f26cc0f534c130f760b2e4b7a303b0989fec75308bda1bd0c0d3a5b5e1c69c",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:30:09.727Z",
+    "expiraEm": "2026-10-26T20:30:09.727Z"
+  },
+  {
+    "token": "226dd364298b40ff8e873b7a42bf813774de082958657c6b196abd0215425d71",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:30:09.890Z",
+    "expiraEm": "2026-10-26T20:30:09.890Z"
+  },
+  {
+    "token": "21cadeb44165885beb9c6684eed4a8f0696908441b0a3d0b5afd762152ab2687",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:30:10.038Z",
+    "expiraEm": "2026-10-26T20:30:10.038Z"
+  },
+  {
+    "token": "94b46f7bc1c6f1bfeb617510c46688871ac7894d7a6dd9791dce8c6867609a16",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:33:04.129Z",
+    "expiraEm": "2026-10-26T20:33:04.128Z"
+  },
+  {
+    "token": "47bab5afa6c783cd6eb696be0d56dccb149be73b2c9c4769194aeb68a86a77d7",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:33:04.234Z",
+    "expiraEm": "2026-10-26T20:33:04.234Z"
+  },
+  {
+    "token": "1a87448bc7e9b4db92242f7e9cb256277c83cff1bc044db5035eeb6f1bbd1ccb",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:33:04.291Z",
+    "expiraEm": "2026-10-26T20:33:04.291Z"
+  },
+  {
+    "token": "e333369b2be09c3dd660b0818f1778ff82ec72c558c7ca62b483086ba7625cf3",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:33:04.349Z",
+    "expiraEm": "2026-10-26T20:33:04.349Z"
+  },
+  {
+    "token": "6775e677af4f9b3f187a1fbc53d65adc70d0ed56080802b15275614056853e75",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:33:04.504Z",
+    "expiraEm": "2026-10-26T20:33:04.504Z"
+  },
+  {
+    "token": "14506037901662fc162d40b1e7ea330ef48d9b9efda773d08493d786bce1f35a",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:33:04.639Z",
+    "expiraEm": "2026-10-26T20:33:04.639Z"
+  },
+  {
+    "token": "90efa6aea1657803898308e56864a6da0f6e671795ef4438b41ae7b98fcec64e",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:33:21.531Z",
+    "expiraEm": "2026-10-26T20:33:21.531Z"
+  },
+  {
+    "token": "8b223b8dd538556b0b1b0912c20008159089cf48da6039014848017295b8b960",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:33:21.620Z",
+    "expiraEm": "2026-10-26T20:33:21.620Z"
+  },
+  {
+    "token": "a3082ec7ab34ee9f9eb1948a75c8ae15d016ddce6541a300450989fdf7ab01ab",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:33:21.688Z",
+    "expiraEm": "2026-10-26T20:33:21.688Z"
+  },
+  {
+    "token": "d90c8be953d9eb8ec742b767e54a2073acd799cde1688f0135f8404c0b030503",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:33:21.746Z",
+    "expiraEm": "2026-10-26T20:33:21.746Z"
+  },
+  {
+    "token": "5f568aa20078272a58c53aa827f5a76688deb42710d607a18d6c1be94f22689a",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:33:21.893Z",
+    "expiraEm": "2026-10-26T20:33:21.893Z"
+  },
+  {
+    "token": "83f89dbb69ec2776773e45ab7cb3af61641b8c5e5faf7539a8d157076281721b",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:33:22.024Z",
+    "expiraEm": "2026-10-26T20:33:22.024Z"
+  },
+  {
+    "token": "d8e6c6c3be6846884e943ea716b88c56c0a5d7360a3fedd8076fe2b34a869a2c",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:33:54.659Z",
+    "expiraEm": "2026-10-26T20:33:54.659Z"
+  },
+  {
+    "token": "01969afadd774b2d73cb5f777280f850cb31931bd89936c3394ab1ed71207256",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:33:54.779Z",
+    "expiraEm": "2026-10-26T20:33:54.779Z"
+  },
+  {
+    "token": "ec7e39254523696763221653596a97d76f22ea59bf3c5e91d7f3f4784f8bdc6c",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:33:54.839Z",
+    "expiraEm": "2026-10-26T20:33:54.839Z"
+  },
+  {
+    "token": "23d8a089e0e5221481fb08ac1dec82dcb22a3088188dd0c4ea32ee0127078652",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:33:54.902Z",
+    "expiraEm": "2026-10-26T20:33:54.902Z"
+  },
+  {
+    "token": "aad3b4cdf9df4a988334391fff7fdc5ac0e470095db5a31df298b79320f907e2",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:33:55.061Z",
+    "expiraEm": "2026-10-26T20:33:55.061Z"
+  },
+  {
+    "token": "68b8f1e8053ef7a76c6224a462aa48b138b7da5e4fb529d5698e0676f126c8ff",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:33:55.194Z",
+    "expiraEm": "2026-10-26T20:33:55.194Z"
+  },
+  {
+    "token": "41d9b493845ee7077fe55fe18a2bad13ed19cd25bda89a55b922593967ab5a06",
+    "uid": "user-mvfppis9-3zap",
+    "criadoEm": "2026-10-19T20:33:56.419Z",
+    "expiraEm": "2026-10-26T20:33:56.419Z"
+  },
+  {
+    "token": "935a1d6d1f81170a8ab61bebb78bdf7707d6b653bf75dcdf8251255b75cf9d70",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:39:30.202Z",
+    "expiraEm": "2026-10-26T20:39:30.202Z"
+  },
+  {
+    "token": "43e2880b9d245872f65840954411fde059c959eab5b89b6b51d6f9607572f786",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:39:30.302Z",
+    "expiraEm": "2026-10-26T20:39:30.302Z"
+  },
+  {
+    "token": "51f63738f26a0cef898ef9dad47f3b09136366b7af244a6dcab87fe2304e68cb",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:39:30.360Z",
+    "expiraEm": "2026-10-26T20:39:30.360Z"
+  },
+  {
+    "token": "914f4d6af6a648afff372b5aa327de63b6e4c46a7013d96f566552fa9a4e0a4c",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:39:30.427Z",
+    "expiraEm": "2026-10-26T20:39:30.427Z"
+  },
+  {
+    "token": "8718ac389125001837e661d77c0bff08349273877411f39501f9913fa9e0c4a2",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:39:30.575Z",
+    "expiraEm": "2026-10-26T20:39:30.575Z"
+  },
+  {
+    "token": "395f8a6019a9effb21d228910a03c40e6f648e46303e48c1fe982b92277808d3",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:39:30.705Z",
+    "expiraEm": "2026-10-26T20:39:30.705Z"
+  },
+  {
+    "token": "e8896903f2f2b052fb52220e23e7bbb5a86708e9de2fcbc378cab46f4808f83f",
+    "uid": "user-mvfpwpnh-8gk2",
+    "criadoEm": "2026-10-19T20:39:31.903Z",
+    "expiraEm": "2026-10-26T20:39:31.903Z"
+  },
+  {
+    "token": "0c53c4ee0614610bcabd57f63ed98f92776642c11b53e483ccaa1ca18a0921c5",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:40:38.028Z",
+    "expiraEm": "2026-10-26T20:40:38.028Z"
+  },
+  {
+    "token": "356347634a37130347f25bfe1facada4770f7b4903aa5ea12cef0870da125407",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:40:38.130Z",
+    "expiraEm": "2026-10-26T20:40:38.130Z"
+  },
+  {
+    "token": "ac36a5c5b7d77e0d09006514900e6b8a236dc305a80baee645ffc87b8ba30f0d",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:40:38.189Z",
+    "expiraEm": "2026-10-26T20:40:38.189Z"
+  },
+  {
+    "token": "fcb045161e7fa1bc81c560b9a3285c706ee5a0a34af68d3b2f0a27c924c23f70",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:40:38.257Z",
+    "expiraEm": "2026-10-26T20:40:38.257Z"
+  },
+  {
+    "token": "4010b8e3ea04d146a047f4e1f2b31d3f380343d8bed16fc769da9ff087fb2b2d",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:40:38.419Z",
+    "expiraEm": "2026-10-26T20:40:38.419Z"
+  },
+  {
+    "token": "d6e3514368b74abd298e548c3b1027a212251e224755c690df9f4b0dc5b32890",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:40:38.561Z",
+    "expiraEm": "2026-10-26T20:40:38.561Z"
+  },
+  {
+    "token": "8baf4519fc9fcafefb776884223ad2786f656aa01c4614fc4dc0966c2136eaff",
+    "uid": "user-mvfpy5ym-61gd",
+    "criadoEm": "2026-10-19T20:40:39.703Z",
+    "expiraEm": "2026-10-26T20:40:39.703Z"
+  },
+  {
+    "token": "196fb77146fe62f2e073d5aaf4f1834d3558f69884ae51b2cc26cac8fbae0c56",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:41:15.605Z",
+    "expiraEm": "2026-10-26T20:41:15.605Z"
+  },
+  {
+    "token": "16c27e8439913d15deb2ba1d8563f6fae76ed0d8460091ba635fafef5414f4a2",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:41:15.708Z",
+    "expiraEm": "2026-10-26T20:41:15.708Z"
+  },
+  {
+    "token": "74e948b89d7f428038331f05d1d0aa324414bae2bead1209409f85f6e699a536",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:41:15.773Z",
+    "expiraEm": "2026-10-26T20:41:15.773Z"
+  },
+  {
+    "token": "570d007b165ff6c17e4bc49041f96d82e3dbec8a64384ed716a7caf1c5205b7a",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:41:15.833Z",
+    "expiraEm": "2026-10-26T20:41:15.833Z"
+  },
+  {
+    "token": "9f9020690722b0e1e06b66810a5bee8bf137509eda2e4ddabd92e4d09b982948",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:41:16.004Z",
+    "expiraEm": "2026-10-26T20:41:16.004Z"
+  },
+  {
+    "token": "2db20ab60294669ca3949a7e1c4f347f300802621dc74e5b744985f24f4ac4c8",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:41:16.141Z",
+    "expiraEm": "2026-10-26T20:41:16.141Z"
+  },
+  {
+    "token": "7f8e13d6b8aedfeaa6a489cc8cbbfac0ce060a559ab11b3e2431deabad943dd1",
+    "uid": "user-mvfpyyzg-exz6",
+    "criadoEm": "2026-10-19T20:41:17.313Z",
+    "expiraEm": "2026-10-26T20:41:17.313Z"
+  },
+  {
+    "token": "5db1c067beac6673247252bbab7f34827021fb3d824ecfe95a64b53ba0d78786",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:41:48.023Z",
+    "expiraEm": "2026-10-26T20:41:48.023Z"
+  },
+  {
+    "token": "d959c3af93e535d5209540fe2b28d5121c9ce90dbd0ecc415556877d26cb8fca",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:41:48.133Z",
+    "expiraEm": "2026-10-26T20:41:48.133Z"
+  },
+  {
+    "token": "21d8d72ab7afede412a0e825bc331153e9f052ff525137b6048d54b2b6eb8a38",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:41:48.206Z",
+    "expiraEm": "2026-10-26T20:41:48.206Z"
+  },
+  {
+    "token": "26cad291b44ab39a1b7011f693defa739e4c1070f4df5f424d4936ae45875bf6",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:41:48.272Z",
+    "expiraEm": "2026-10-26T20:41:48.272Z"
+  },
+  {
+    "token": "00a0374779710a3b894c98f47ed546b8aea5f5046f10fe5a5680b1fb926c52cd",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:41:48.454Z",
+    "expiraEm": "2026-10-26T20:41:48.454Z"
+  },
+  {
+    "token": "969b5ae476c6239d1014a643c0171762373b5dfb5f692d51c78315c6babadf41",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:41:48.604Z",
+    "expiraEm": "2026-10-26T20:41:48.604Z"
+  },
+  {
+    "token": "beb9e0dca12814eb4e0187a3f7466c43bff83d92efc00932089ba7fb2da0d182",
+    "uid": "user-mvfpzo4r-lp7d",
+    "criadoEm": "2026-10-19T20:41:49.920Z",
+    "expiraEm": "2026-10-26T20:41:49.920Z"
+  },
+  {
+    "token": "dbff518e11092fc927f26aee868931a76e35ea33f5192588d712f48f4d981c4c",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:42:32.698Z",
+    "expiraEm": "2026-10-26T20:42:32.698Z"
+  },
+  {
+    "token": "b9505e494e72869764bd40c17801914c23c3c6b3be6d7077c321723c5e6e2206",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:42:32.813Z",
+    "expiraEm": "2026-10-26T20:42:32.813Z"
+  },
+  {
+    "token": "f5c60b3ce9d3564f8068c5812ce4c11f42a1919733372d3cd287e6eb3030118b",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-19T20:42:32.888Z",
+    "expiraEm": "2026-10-26T20:42:32.888Z"
+  },
+  {
+    "token": "0e52332b2a40a4eefd0546d7257647a5da95e007c90b4cd15abfe7d197e8a30a",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-19T20:42:32.962Z",
+    "expiraEm": "2026-10-26T20:42:32.962Z"
+  },
+  {
+    "token": "b6280b9c0c4aade9cd57c48748cf961e977d0c422f5d460283e53b7d374fb4cd",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-19T20:42:33.131Z",
+    "expiraEm": "2026-10-26T20:42:33.131Z"
+  },
+  {
+    "token": "8ed51e5194a4f38f1b16562463a9e46968495f19d4b8627522473edce5bf4b1c",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-19T20:42:33.268Z",
+    "expiraEm": "2026-10-26T20:42:33.268Z"
+  },
+  {
+    "token": "63aafa6ba83902f822423a7ca49cd69dd574985126b51f08a9f63555815dbdd6",
+    "uid": "user-mvfq0mk2-iv8q",
+    "criadoEm": "2026-10-19T20:42:34.528Z",
+    "expiraEm": "2026-10-26T20:42:34.528Z"
+  },
+  {
+    "token": "2977b313550916fac0d0bf865d223b1e4458f46b322a8f252f168ad358f949c7",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T17:44:19.833Z",
+    "expiraEm": "2026-10-27T17:44:19.833Z"
+  },
+  {
+    "token": "1eb5d84697d2c7d97570b466247be127c24c52155fcbc3e7fa65c0bfca9c2c5e",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T17:44:19.938Z",
+    "expiraEm": "2026-10-27T17:44:19.938Z"
+  },
+  {
+    "token": "758354b42cddf7ae43183af14c092186397ed1250b8f391620b4cbb9d67946e0",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-20T17:44:19.998Z",
+    "expiraEm": "2026-10-27T17:44:19.998Z"
+  },
+  {
+    "token": "a487012970c01f00b2c792b674d06afe9cbd915f229f723dadd1880987b53a55",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-20T17:44:20.071Z",
+    "expiraEm": "2026-10-27T17:44:20.071Z"
+  },
+  {
+    "token": "7e67ddacd23a9a91e93ca05ec370f2fa60b24e86832852b6f40b7d2ad87402a7",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T17:44:20.249Z",
+    "expiraEm": "2026-10-27T17:44:20.249Z"
+  },
+  {
+    "token": "ebf02ccab9c2be13140d2c2dbe7103171b4cf66dae77485c884289a1aced5ab9",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T17:44:20.382Z",
+    "expiraEm": "2026-10-27T17:44:20.382Z"
+  },
+  {
+    "token": "e369595d87aec8569ac9991aaa21b5cf706afef2ce037f31adcd1caddbf8e066",
+    "uid": "user-mvgz3ajb-iekd",
+    "criadoEm": "2026-10-20T17:44:21.625Z",
+    "expiraEm": "2026-10-27T17:44:21.625Z"
+  },
+  {
+    "token": "bd318feb78afcf5f05480fc7bd79866e3aceed550f8586fb3ded66d01d762761",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T17:45:17.629Z",
+    "expiraEm": "2026-10-27T17:45:17.629Z"
+  },
+  {
+    "token": "5e5afe3cb878a11ce2a6ba684e19ade99d0ae598241d6f87c2b4da32fde22054",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T17:45:17.731Z",
+    "expiraEm": "2026-10-27T17:45:17.731Z"
+  },
+  {
+    "token": "b462f05104c102f52dc63de0070afcb1afa7654de011af2d07bf4bd2c415b210",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-20T17:45:17.790Z",
+    "expiraEm": "2026-10-27T17:45:17.790Z"
+  },
+  {
+    "token": "19f6812366758471e5bd6bfd575e9acd46303003fffdbf2830e0925b8a001e25",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-20T17:45:17.851Z",
+    "expiraEm": "2026-10-27T17:45:17.851Z"
+  },
+  {
+    "token": "96031be4913c9dd82401c1ff1c9383baada694961c4356d881afbf12ea2ec560",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T17:45:18.009Z",
+    "expiraEm": "2026-10-27T17:45:18.009Z"
+  },
+  {
+    "token": "de70eb7b95300d3cfe1fb388baf5eaacbe07f7a65ba98922dba90660664386e9",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T17:45:18.142Z",
+    "expiraEm": "2026-10-27T17:45:18.142Z"
+  },
+  {
+    "token": "82ef4293be1ce5b220bb2a4cbaf00b76dbc9146ed487deb35fa55043b6180759",
+    "uid": "user-mvgz4j2f-11q2",
+    "criadoEm": "2026-10-20T17:45:19.337Z",
+    "expiraEm": "2026-10-27T17:45:19.337Z"
+  },
+  {
+    "token": "90d484ae49cc51937f850483c682d47ba38f623fefb071eff2659e6a44c33941",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T18:30:16.502Z",
+    "expiraEm": "2026-10-27T18:30:16.502Z"
+  },
+  {
+    "token": "f34863171592bf29af40d825122a679af4bc62eeff64edf87f01342b87e24531",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T18:30:16.626Z",
+    "expiraEm": "2026-10-27T18:30:16.626Z"
+  },
+  {
+    "token": "ba0b3774275dbcecb2494b87a41aba34477098a5d6f7b7cae139492a0f761dea",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-20T18:30:16.685Z",
+    "expiraEm": "2026-10-27T18:30:16.685Z"
+  },
+  {
+    "token": "7dce6c07fc67f18439ee9a2c8f475e32b9d9c9242ce3388784944c1461e2a973",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-20T18:30:16.744Z",
+    "expiraEm": "2026-10-27T18:30:16.744Z"
+  },
+  {
+    "token": "9ff37776bd1421c5cc773babafd33ccbe01435e098229f30e51417f606ca5093",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T18:30:16.910Z",
+    "expiraEm": "2026-10-27T18:30:16.910Z"
+  },
+  {
+    "token": "9e3b581e35a477940181ab2916cf02431e5fcbd93c9b2e0cdfb7197fe5fdcc8d",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T18:30:17.059Z",
+    "expiraEm": "2026-10-27T18:30:17.059Z"
+  },
+  {
+    "token": "1111dc7e05519d4f8be8cdfe93593539fab159fc5688104f3167a8d23a328285",
+    "uid": "user-mvh0qdmo-7d7g",
+    "criadoEm": "2026-10-20T18:30:18.341Z",
+    "expiraEm": "2026-10-27T18:30:18.341Z"
+  },
+  {
+    "token": "33f4637409a69562bbdbfd5f21001e6066cc32e1b077645b95b2398f75514796",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T18:35:21.705Z",
+    "expiraEm": "2026-10-27T18:35:21.705Z"
+  },
+  {
+    "token": "2c44f1b243ae1da52b32231a48e0c85f922d68d15bf3176f737ea24ce81e413e",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T18:35:21.824Z",
+    "expiraEm": "2026-10-27T18:35:21.824Z"
+  },
+  {
+    "token": "82674abef72092149840f4590a0193f683a04c61ea26d3cd3634c7b728685176",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-20T18:35:21.884Z",
+    "expiraEm": "2026-10-27T18:35:21.884Z"
+  },
+  {
+    "token": "4e10efb7b77a1a31b3181a09a17d1b737650a03323960c15140153c047e62342",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-20T18:35:21.945Z",
+    "expiraEm": "2026-10-27T18:35:21.945Z"
+  },
+  {
+    "token": "0005ccbac91294799c7bc359dc0e2c2d13957bf6566d41c3c9b0207ff08f776c",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T18:35:22.108Z",
+    "expiraEm": "2026-10-27T18:35:22.108Z"
+  },
+  {
+    "token": "e3679b1f5a6890e609c5395d59256db8b7e52486a29831c7dee2bb785b389f68",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T18:35:22.244Z",
+    "expiraEm": "2026-10-27T18:35:22.244Z"
+  },
+  {
+    "token": "65056a9266901ccb58c101fd89a4a2824b736cca5ad1833c7c3ea2a81de41472",
+    "uid": "user-mvh0wx23-4tvk",
+    "criadoEm": "2026-10-20T18:35:23.458Z",
+    "expiraEm": "2026-10-27T18:35:23.458Z"
+  },
+  {
+    "token": "2fee3a67664b17b367723ad6658d3cf1d3704ac7b6bf541e81186ed58fab85c1",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T18:37:00.284Z",
+    "expiraEm": "2026-10-27T18:37:00.284Z"
+  },
+  {
+    "token": "1d8d1510d2608d9c3f1a3b07c798308dac4f6b5bcea3ecc0ed79ac393d990932",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T18:37:00.388Z",
+    "expiraEm": "2026-10-27T18:37:00.388Z"
+  },
+  {
+    "token": "51e5d24baa681ee84b0cf811db34b164d7a88ee40313dc94d86408cb5c8be75d",
+    "uid": "user-fin-01",
+    "criadoEm": "2026-10-20T18:37:00.448Z",
+    "expiraEm": "2026-10-27T18:37:00.448Z"
+  },
+  {
+    "token": "ec93fb0cf1a70bd93961fe94a9df6c0506fad82a18ef40e76ad6eb94c46d34aa",
+    "uid": "user-admin-01",
+    "criadoEm": "2026-10-20T18:37:00.507Z",
+    "expiraEm": "2026-10-27T18:37:00.507Z"
+  },
+  {
+    "token": "76c5b4fbeb60131d1f291d071b0b1e58324a38855ac5eec0c26e04fc08caee8d",
+    "uid": "user-opto-01",
+    "criadoEm": "2026-10-20T18:37:00.668Z",
+    "expiraEm": "2026-10-27T18:37:00.668Z"
+  },
+  {
+    "token": "aa92617039fadaedc3751ee89fd9fae92561e0ee1d7888e75cfa792dc9b6adf6",
+    "uid": "user-recep-01",
+    "criadoEm": "2026-10-20T18:37:00.804Z",
+    "expiraEm": "2026-10-27T18:37:00.804Z"
+  },
+  {
+    "token": "bb527f143c6f287b116f944131f615ab91276ac6f5a0eebf32e8bd3cea10e30f",
+    "uid": "user-mvh0z12i-03a5",
+    "criadoEm": "2026-10-20T18:37:01.965Z",
+    "expiraEm": "2026-10-27T18:37:01.965Z"
+  }
+]

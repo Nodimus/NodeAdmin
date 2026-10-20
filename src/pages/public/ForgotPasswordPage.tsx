@@ -9,6 +9,7 @@ export const ForgotPasswordPage: React.FC = () => {
   const [sent, setSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [devResetUrl, setDevResetUrl] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -19,7 +20,10 @@ export const ForgotPasswordPage: React.FC = () => {
     setError(null);
     setLoading(true);
     try {
-      await resetPassword(email);
+      const res = await resetPassword(email);
+      if (res?.devResetUrl) {
+        setDevResetUrl(res.devResetUrl);
+      }
       setSent(true);
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Falha ao enviar e-mail de recuperação';
@@ -38,8 +42,8 @@ export const ForgotPasswordPage: React.FC = () => {
           <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-teal-500 to-cyan-500 flex items-center justify-center text-white shadow-lg shadow-teal-500/30">
             <Glasses className="w-6 h-6" />
           </div>
-          <span className="text-2xl font-extrabold text-white tracking-tight">
-            Vinnes <span className="text-teal-400">Admin</span>
+          <span className="text-xl font-extrabold text-white tracking-tight">
+            Consultório <span className="text-teal-400">Admin</span>
           </span>
         </Link>
         <h2 className="mt-4 text-center text-xl font-bold tracking-tight text-white">
@@ -61,6 +65,19 @@ export const ForgotPasswordPage: React.FC = () => {
               <p className="text-xs text-slate-300 leading-relaxed">
                 Se houver uma conta associada a <strong className="text-white">{email}</strong>, você receberá instruções para cadastrar uma nova senha.
               </p>
+              {devResetUrl && (
+                <div className="p-3 bg-teal-950/70 border border-teal-700/60 rounded-xl text-left">
+                  <p className="text-[11px] font-semibold text-teal-300 mb-1">
+                    [Ambiente de Testes / Demonstração] Link Gerado:
+                  </p>
+                  <Link
+                    to={devResetUrl}
+                    className="text-xs text-teal-400 hover:text-teal-300 underline break-all font-mono"
+                  >
+                    Clique aqui para redefinir a senha
+                  </Link>
+                </div>
+              )}
               <div className="pt-4">
                 <Link
                   to="/login"

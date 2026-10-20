@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004D38" />
+      <stop offset="100%" stop-color="#00241A" />
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#84DE02" />
+      <stop offset="100%" stop-color="#76C900" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded rectangle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Outer Stylized Optoclin Eye -->
+  <g transform="translate(256, 256)">
+    <!-- Upper eyelid curve -->
+    <path d="M -190 0 C -110 -130 110 -130 190 0" fill="none" stroke="#76C900" stroke-width="26" stroke-linecap="round" />
+    
+    <!-- Lower eyelid curve -->
+    <path d="M -190 0 C -110 130 110 130 190 0" fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round" stroke-opacity="0.9" />
+    
+    <!-- Lens / Iris in vibrant green -->
+    <circle cx="0" cy="0" r="78" fill="url(#lensGrad)" stroke="#ffffff" stroke-width="12" />
+    
+    <!-- Deep Pupil -->
+    <circle cx="0" cy="0" r="38" fill="#00241A" />
+    
+    <!-- Light reflection -->
+    <circle cx="-18" cy="-18" r="14" fill="#ffffff" />
+    <circle cx="18" cy="18" r="6" fill="#ffffff" opacity="0.8" />
+    
+    <!-- Optical calibration markers -->
+    <line x1="-230" y1="0" x2="-202" y2="0" stroke="#76C900" stroke-width="10" stroke-linecap="round" />
+    <line x1="202" y1="0" x2="230" y2="0" stroke="#76C900" stroke-width="10" stroke-linecap="round" />
+  </g>
+</svg>

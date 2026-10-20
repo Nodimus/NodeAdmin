@@ -1,0 +1,400 @@
+{
+  "id": "dados_gerais",
+  "razaoSocial": "Optoclin Cuidados Visuais & Optometria Ltda",
+  "nomeFantasia": "Optoclin",
+  "cnpj": "12.345.678/0001-90",
+  "registroProfissional": "CBO 3223-05 • CBOO",
+  "responsavelTecnico": "Optometrista Responsável Técnico",
+  "registroResponsavelTecnico": "CBO 3223-05 • CBOO",
+  "telefone": "(11) 3333-4444",
+  "whatsapp": "(11) 99999-8888",
+  "email": "contato@souoptoclin.com.br",
+  "endereco": {
+    "logradouro": "Rua João Pessoa",
+    "numero": "sala 8",
+    "complemento": "Galeria Norcon Shopping",
+    "bairro": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "cep": "49010-130"
+  },
+  "logoUrl": "",
+  "carimboUrl": "",
+  "assinaturaUrl": "",
+  "redesSociais": {
+    "instagram": "@souoptoclin",
+    "facebook": "souoptoclin",
+    "linkedin": "",
+    "website": "https://souoptoclin.com.br"
+  },
+  "horarioFuncionamento": "Segunda a Sexta: 08:00 às 18:00 | Sábado: 08:30 às 13:00",
+  "horariosAtendimento": [
+    {
+      "diaSemana": "Segunda a Sexta",
+      "inicio": "08:00",
+      "fim": "18:00",
+      "intervaloInicio": "12:00",
+      "intervaloFim": "13:30",
+      "fechado": false
+    },
+    {
+      "diaSemana": "Sábado",
+      "inicio": "08:30",
+      "fim": "13:00",
+      "fechado": false
+    },
+    {
+      "diaSemana": "Domingo",
+      "inicio": "00:00",
+      "fim": "00:00",
+      "fechado": true
+    }
+  ],
+  "intervaloMin": 15,
+  "duracaoPadraoMin": 40,
+  "antecedenciaMinimaHoras": 2,
+  "bloqueiosAgenda": [
+    {
+      "data": "2026-12-25",
+      "motivo": "Natal"
+    },
+    {
+      "data": "2026-01-01",
+      "motivo": "Confraternização Universal"
+    }
+  ],
+  "servicos": [
+    {
+      "id": "srv-01",
+      "nome": "Exame de Refração Completo",
+      "descricao": "Avaliação clínica minuciosa da acuidade visual, refração subjetiva e objetiva para prescrição precisa de óculos monofocais, bifocais e multifocais com teste de conforto visual.",
+      "duracaoMin": 45,
+      "precoCentavos": 18000,
+      "ativo": true,
+      "destaque": true,
+      "ordem": 1
+    },
+    {
+      "id": "srv-02",
+      "nome": "Adaptação de Lentes de Contato",
+      "descricao": "Ceratometria, avaliação do filme lacrimal, teste dinâmico com lentes de prova descartáveis ou tóricas e treinamento prático de assepsia e manuseio.",
+      "duracaoMin": 40,
+      "precoCentavos": 15000,
+      "ativo": true,
+      "destaque": true,
+      "ordem": 2
+    },
+    {
+      "id": "srv-03",
+      "nome": "Avaliação Visual Ocupacional e Cansaço Digital",
+      "descricao": "Protocolo focado em profissionais e estudantes expostos a telas digitais prolongadas, análise da musculatura extraocular e ergonomia visual.",
+      "duracaoMin": 35,
+      "precoCentavos": 14000,
+      "ativo": true,
+      "destaque": false,
+      "ordem": 3
+    },
+    {
+      "id": "srv-04",
+      "nome": "Consulta de Retorno Refrativo",
+      "descricao": "Verificação da adaptação aos novos óculos prescritos e reavaliação clínica preventiva dentro do prazo de garantia de 30 dias.",
+      "duracaoMin": 30,
+      "precoCentavos": 0,
+      "ativo": true,
+      "destaque": false,
+      "ordem": 4
+    }
+  ],
+  "validadeReceitaDias": 365,
+  "camposObrigatoriosReceita": [
+    "od_esferico",
+    "od_cilindrico",
+    "od_eixo",
+    "oe_esferico",
+    "oe_cilindrico",
+    "oe_eixo",
+    "adicao",
+    "dnp",
+    "validadeAte"
+  ],
+  "textoRodapeRelatorio": "Consultório Clínico de Optometria • Dr. Roberto Viana • CBOO 14.892-SP | CBO 3223-05 • Atendimento primário da saúde visual e refrativa individualizada. Exclusividade clínica optométrica sem vínculo comercial com óticas ou venda de lentes.",
+  "formasPagamento": [
+    {
+      "id": "fp-01",
+      "nome": "Pix (Chave ou QR Code)",
+      "ativo": true,
+      "padrao": true
+    },
+    {
+      "id": "fp-02",
+      "nome": "Dinheiro em Espécie",
+      "ativo": true
+    },
+    {
+      "id": "fp-03",
+      "nome": "Cartão de Débito",
+      "ativo": true
+    },
+    {
+      "id": "fp-04",
+      "nome": "Cartão de Crédito à Vista",
+      "ativo": true
+    },
+    {
+      "id": "fp-05",
+      "nome": "Cartão de Crédito Parcelado",
+      "ativo": true
+    },
+    {
+      "id": "fp-06",
+      "nome": "Transferência Bancária (TED)",
+      "ativo": true
+    }
+  ],
+  "categoriasDespesa": [
+    {
+      "id": "cd-01",
+      "nome": "Aluguel & Condomínio Clínico",
+      "ativo": true
+    },
+    {
+      "id": "cd-02",
+      "nome": "Energia Elétrica & Água",
+      "ativo": true
+    },
+    {
+      "id": "cd-03",
+      "nome": "Internet & Telefonia",
+      "ativo": true
+    },
+    {
+      "id": "cd-04",
+      "nome": "Insumos Clínicos & Esterilização",
+      "ativo": true
+    },
+    {
+      "id": "cd-05",
+      "nome": "Softwares, Hospedagem & TI",
+      "ativo": true
+    },
+    {
+      "id": "cd-06",
+      "nome": "Manutenção de Equipamentos Optométricos",
+      "ativo": true
+    },
+    {
+      "id": "cd-07",
+      "nome": "Impostos, Taxas e Anuidades CBOO/CROO",
+      "ativo": true
+    },
+    {
+      "id": "cd-08",
+      "nome": "Honorários e Salários da Equipe",
+      "ativo": true
+    },
+    {
+      "id": "cd-09",
+      "nome": "Limpeza, Assepsia e Copa",
+      "ativo": true
+    },
+    {
+      "id": "cd-10",
+      "nome": "Outras Despesas Administrativas",
+      "ativo": true
+    }
+  ],
+  "motivosCancelamento": [
+    {
+      "id": "mc-01",
+      "nome": "Desistência expressa do paciente",
+      "ativo": true
+    },
+    {
+      "id": "mc-02",
+      "nome": "Imprevisto de saúde ou emergência pessoal",
+      "ativo": true
+    },
+    {
+      "id": "mc-03",
+      "nome": "Conflito de horários de trabalho",
+      "ativo": true
+    },
+    {
+      "id": "mc-04",
+      "nome": "Falta sem justificativa prévia",
+      "ativo": true
+    },
+    {
+      "id": "mc-05",
+      "nome": "Reagendamento solicitado para outra data",
+      "ativo": true
+    },
+    {
+      "id": "mc-06",
+      "nome": "Condições climáticas adversas ou trânsito",
+      "ativo": true
+    }
+  ],
+  "mensagensPadraoWhatsapp": [
+    {
+      "id": "mp-01",
+      "tipo": "confirmacao",
+      "titulo": "Confirmação de Agendamento",
+      "template": "Olá {nome}! Sua consulta de {servico} no Consultório de Optometria Dr. Roberto Viana está confirmada para {data} às {hora}. Nosso endereço: Av. Paulista, 1578, Cj. 112. Em caso de dúvidas, responda esta mensagem!",
+      "ativo": true
+    },
+    {
+      "id": "mp-02",
+      "tipo": "lembrete",
+      "titulo": "Lembrete de Consulta (24h de antecedência)",
+      "template": "Olá {nome}, lembrete do seu exame de {servico} amanhã, {data}, às {hora}. Se você já utiliza óculos ou lentes de contato, por favor traga no atendimento. Responda 1 para CONFIRMAR.",
+      "ativo": true
+    },
+    {
+      "id": "mp-03",
+      "tipo": "retorno",
+      "titulo": "Aviso de Retorno Refrativo / Preventivo",
+      "template": "Olá {nome}! Esperamos que esteja com ótima saúde visual. Identificamos que já se aproxima o período de revisão preventiva da sua refração ({servico}). Gostaria de agendar seu retorno?",
+      "ativo": true
+    },
+    {
+      "id": "mp-04",
+      "tipo": "cancelamento",
+      "titulo": "Confirmação de Cancelamento",
+      "template": "Olá {nome}, confirmamos o cancelamento da sua consulta de {servico} prevista para {data} às {hora}. Quando desejar remarcar seu atendimento com o Dr. Roberto Viana, estamos à sua disposição.",
+      "ativo": true
+    }
+  ],
+  "hero": {
+    "titulo": "Cuidado Visual  de Excelência",
+    "subtitulo": "Exames de refração e cuidados visuais personalizados.",
+    "textoBotao": "Agendar Consulta"
+  },
+  "sobreOptometrista": {
+    "nome": "Optoclin Saúde Visual",
+    "registroProfissional": "CBO 3223-05 • CBOO",
+    "fotoUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+    "biografia": "A Optoclin é um centro optométrico de referência em Aracaju, dedicado exclusivamente à atenção primária da saúde visual. Oferecemos atendimento acolhedor, minucioso e com total independência clínica, focado na precisão refrativa e no conforto dos seus olhos.",
+    "formacao": [
+      "Optometria Clínica e Atenção Visual Primária",
+      "Avaliação Computadorizada da Acuidade e Refração",
+      "Análise Especializada da Visão Binocular e Motilidade",
+      "Adaptação de Lentes de Contato e Conforto Visual"
+    ],
+    "diferenciais": [
+      "Atendimento 100% humanizado, individualizado e sem pressa",
+      "Equipamentos tecnológicos modernos e alta precisão nos testes",
+      "Independência clínica absoluta: foco na sua visão, sem venda de armações",
+      "Localização privilegiada e segura no Centro de Aracaju (Galeria Norcon Shopping)"
+    ]
+  },
+  "depoimentos": [
+    {
+      "id": "dep-001",
+      "nome": "Mariana S.",
+      "texto": "Sofria com dores de cabeça constantes após o trabalho no computador. O Dr. Roberto fez um exame super detalhado, descobriu um pequeno astigmatismo que nunca ninguém tinha notado e meus novos óculos resolveram tudo!",
+      "nota": 5,
+      "ativo": true,
+      "autorizacaoPaciente": true,
+      "ordem": 1,
+      "data": "Fevereiro de 2026"
+    },
+    {
+      "id": "dep-002",
+      "nome": "Carlos E. Mendonça",
+      "texto": "Atendimento pontual e extremamente cuidadoso. Foi a primeira vez que me explicaram exatamente cada número da minha receita com paciência. O consultório é moderno e acolhedor.",
+      "nota": 5,
+      "ativo": true,
+      "autorizacaoPaciente": true,
+      "ordem": 2,
+      "data": "Janeiro de 2026"
+    },
+    {
+      "id": "dep-003",
+      "nome": "Juliana F. Alcantara",
+      "texto": "Trouxe meu filho de 7 anos que estava com dificuldade de leitura na escola. A abordagem foi muito carinhosa e o teste apontou necessidade de óculos para perto. O desempenho dele melhorou muito!",
+      "nota": 5,
+      "ativo": true,
+      "autorizacaoPaciente": true,
+      "ordem": 3,
+      "data": "Dezembro de 2025"
+    },
+    {
+      "id": "dep-004",
+      "nome": "Renato M. Silveira",
+      "texto": "Adaptação de lentes de contato perfeita. Tinha medo por experiências passadas ruins, mas a orientação e o treino aqui no consultório fizeram toda a diferença no conforto.",
+      "nota": 5,
+      "ativo": true,
+      "autorizacaoPaciente": true,
+      "ordem": 4,
+      "data": "Novembro de 2025"
+    }
+  ],
+  "galeria": [
+    {
+      "id": "gal-01",
+      "url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80",
+      "legenda": "Gabinete de Refração Computadorizada e Projetor de Optotipos",
+      "ordem": 1,
+      "ativo": true
+    },
+    {
+      "id": "gal-02",
+      "url": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80",
+      "legenda": "Biomicroscópio e Lâmpada de Fenda para Adaptação de Lentes",
+      "ordem": 2,
+      "ativo": true
+    },
+    {
+      "id": "gal-03",
+      "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+      "legenda": "Recepção e Sala de Espera Climatizada e Confortável",
+      "ordem": 3,
+      "ativo": true
+    }
+  ],
+  "whatsappConfig": {
+    "numero": "(79) 99109-2420",
+    "mensagemInicial": "Olá! Gostaria de agendar meu exame de vista na Optoclin."
+  },
+  "secoesVisiveis": {
+    "hero": true,
+    "servicos": true,
+    "sobre": true,
+    "galeria": true,
+    "depoimentos": true,
+    "horarios": true,
+    "agendamento": true,
+    "contato": true
+  },
+  "ordemSecoes": [
+    "hero",
+    "servicos",
+    "sobre",
+    "galeria",
+    "depoimentos",
+    "horarios",
+    "agendamento",
+    "contato"
+  ],
+  "mapaEmbedUrl": "",
+  "seo": {
+    "titulo": "Optoclin | Exames de Vista e Avaliação Optométrica em Aracaju - SE",
+    "descricao": "Exame de vista completo, avaliação da acuidade visual e saúde dos seus olhos na Optoclin. Atendimento acolhedor e humanizado na Galeria Norcon Shopping, Centro de Aracaju."
+  },
+  "publicadoPor": {
+    "uid": "user-admin-01",
+    "nome": "Administrador do Sistema",
+    "email": "admin@consultorio.com.br",
+    "data": "2026-10-20T18:37:01.157Z"
+  },
+  "politicaPrivacidadeTexto": "Este consultório particular de optometria trata seus dados pessoais cadastrais e clínicos estritamente de acordo com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) e resoluções do conselho profissional de optometria. Seus dados cadastrais (nome, telefone, e-mail) são utilizados exclusivamente para contato, confirmação de agendamentos e emissão de comprovantes. Suas informações de refração, anamnese e acuidade visual compõem seu prontuário optométrico sigiloso, acessível somente pelo profissional responsável pelo seu atendimento e pela recepção estritamente autorizada. Em nenhuma circunstância compartilhamos seus dados com terceiros ou redes de publicidade. Você pode solicitar a qualquer momento a conferência ou atualização dos seus dados cadastrais diretamente na recepção do consultório.",
+  "versaoPolitica": "1.0",
+  "lembretesEmailConfig": {
+    "ativo": true,
+    "antecedenciaHoras": 48,
+    "assuntoPadrao": "Lembrete Especial: Sua consulta de {servico} está confirmada",
+    "corpoTemplate": "Olá, {nome}!\n\nEste é um lembrete amigável de que seu exame de {servico} está agendado para amanhã, {data}, às {horario}, com {profissional} no {consultorio}.\n\nEndereço: {endereco}\nTelefone: {telefone} / WhatsApp: {whatsapp}\n\nRecomendações importantes:\n- Se você já utiliza óculos de grau ou lentes de contato atuais, traga-os consigo no momento da consulta.\n- Chegue com 10 minutos de antecedência.\n\nCaso necessite reagendar, favor entrar em contato antecipadamente pelo telefone ou WhatsApp.\n\nAtenciosamente,\nEquipe {consultorio}"
+  },
+  "updatedAt": "2026-10-20T18:37:01.157Z"
+}

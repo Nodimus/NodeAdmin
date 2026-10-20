@@ -60,7 +60,7 @@ export const LoginPage: React.FC = () => {
     }
   };
 
-  const handleQuickLogin = (role: 'optometrista' | 'secretaria') => {
+  const handleQuickLogin = (role: string) => {
     quickLoginAs(role);
     navigate(from, { replace: true });
   };
@@ -109,35 +109,62 @@ export const LoginPage: React.FC = () => {
             </div>
           )}
 
-          {/* Atalho de Demonstração da Equipe */}
+          {/* Atalho de Demonstração da Equipe com os 4 Papéis da Spec */}
           <div className="mb-6 pb-6 border-b border-slate-700/70">
-            <div className="flex items-center gap-2 text-xs font-semibold text-teal-400 mb-2">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Entrar como Usuário da Equipe (1 Clique):</span>
+            <div className="flex items-center justify-between text-xs font-semibold text-teal-400 mb-2.5">
+              <span className="flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Acesso Rápido por Papel:</span>
+              </span>
+              <span className="text-[10px] text-slate-400 font-normal">Spec 04</span>
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button
                 type="button"
-                onClick={() => handleQuickLogin('optometrista')}
-                className="p-2.5 rounded-xl bg-teal-500/10 hover:bg-teal-500/20 border border-teal-500/30 text-teal-200 text-xs font-medium text-left transition-colors flex flex-col gap-1 cursor-pointer"
+                onClick={() => handleQuickLogin('admin')}
+                className="p-2.5 rounded-xl bg-purple-500/10 hover:bg-purple-500/20 border border-purple-500/30 text-purple-200 text-xs font-medium text-left transition-colors flex flex-col gap-0.5 cursor-pointer"
               >
                 <span className="font-bold text-white flex items-center gap-1">
-                  <UserCheck className="w-3.5 h-3.5 text-teal-400" />
-                  Dr. Roberto
+                  <UserCheck className="w-3.5 h-3.5 text-purple-400" />
+                  Admin
                 </span>
-                <span className="text-[10px] text-teal-400">Optometrista RT</span>
+                <span className="text-[10px] text-purple-300">Acesso Total</span>
               </button>
 
               <button
                 type="button"
-                onClick={() => handleQuickLogin('secretaria')}
-                className="p-2.5 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 text-cyan-200 text-xs font-medium text-left transition-colors flex flex-col gap-1 cursor-pointer"
+                onClick={() => handleQuickLogin('optometrista')}
+                className="p-2.5 rounded-xl bg-teal-500/10 hover:bg-teal-500/20 border border-teal-500/30 text-teal-200 text-xs font-medium text-left transition-colors flex flex-col gap-0.5 cursor-pointer"
+              >
+                <span className="font-bold text-white flex items-center gap-1">
+                  <UserCheck className="w-3.5 h-3.5 text-teal-400" />
+                  Optometrista
+                </span>
+                <span className="text-[10px] text-teal-300">Clínico / RT</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => handleQuickLogin('recepcao')}
+                className="p-2.5 rounded-xl bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 text-cyan-200 text-xs font-medium text-left transition-colors flex flex-col gap-0.5 cursor-pointer"
               >
                 <span className="font-bold text-white flex items-center gap-1">
                   <UserCheck className="w-3.5 h-3.5 text-cyan-400" />
-                  Juliana Paes
+                  Recepção
                 </span>
-                <span className="text-[10px] text-cyan-400">Recepção do Consultório</span>
+                <span className="text-[10px] text-cyan-300">Agenda & Pacientes</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => handleQuickLogin('financeiro')}
+                className="p-2.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-200 text-xs font-medium text-left transition-colors flex flex-col gap-0.5 cursor-pointer"
+              >
+                <span className="font-bold text-white flex items-center gap-1">
+                  <UserCheck className="w-3.5 h-3.5 text-amber-400" />
+                  Financeiro
+                </span>
+                <span className="text-[10px] text-amber-300">Caixa & Contas</span>
               </button>
             </div>
           </div>

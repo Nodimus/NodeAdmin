@@ -18,5 +18,5 @@ O optometrista precisa divulgar o consultório, captar agendamentos e administra
 8. **Relatórios impressos**
 9. Versão mobile PWA
 
-## Fora de escopo (v1)
-Prontuário oftalmológico completo, TISS/convênios, emissão fiscal (NF-e/NFS-e), telemedicina.
+## Fora de escopo (v1 e regra deontológica permanente)
+Venda de óculos, comércio de armações, loja/estoque de produtos ópticos, venda de lentes de contato comerciais, prontuário oftalmológico cirúrgico, TISS/convênios, emissão fiscal (NF-e/NFS-e), telemedicina. O sistema é exclusivo para consultório/clínica de exames optométricos.

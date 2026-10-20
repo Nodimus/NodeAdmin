@@ -1,0 +1,2999 @@
+[
+  {
+    "id": "pat-mvh0z0ot",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 949548274",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-11-26",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T18:37:01.372Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-20T18:37:01.372Z",
+    "updatedAt": "2026-10-20T18:37:01.372Z"
+  },
+  {
+    "id": "pat-mvh0z0mf",
+    "name": "Paciente Anonimizado [LGPD-z0mf]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T18:37:01.287Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-20T18:37:01.287Z",
+    "updatedAt": "2026-10-20T18:37:01.435Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-20T18:37:01.435Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvh0wwn1",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 982119789",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-04-13",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T18:35:22.812Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-20T18:35:22.812Z",
+    "updatedAt": "2026-10-20T18:35:22.812Z"
+  },
+  {
+    "id": "pat-mvh0wwkk",
+    "name": "Paciente Anonimizado [LGPD-wwkk]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T18:35:22.724Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-20T18:35:22.724Z",
+    "updatedAt": "2026-10-20T18:35:22.876Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-20T18:35:22.876Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvh0qd78",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 966747725",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-11",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T18:30:17.684Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-20T18:30:17.684Z",
+    "updatedAt": "2026-10-20T18:30:17.684Z"
+  },
+  {
+    "id": "pat-mvh0qd4i",
+    "name": "Paciente Anonimizado [LGPD-qd4i]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T18:30:17.586Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-20T18:30:17.586Z",
+    "updatedAt": "2026-10-20T18:30:17.758Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-20T18:30:17.758Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvgz4iop",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 969857230",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-22",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T17:45:18.742Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-20T17:45:18.742Z",
+    "updatedAt": "2026-10-20T17:45:18.742Z"
+  },
+  {
+    "id": "pat-mvgz4ilr",
+    "name": "Paciente Anonimizado [LGPD-4ilr]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T17:45:18.639Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-20T17:45:18.639Z",
+    "updatedAt": "2026-10-20T17:45:18.812Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-20T17:45:18.812Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvgz3a4a",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 919418146",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-18",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T17:44:20.985Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-20T17:44:20.985Z",
+    "updatedAt": "2026-10-20T17:44:20.985Z"
+  },
+  {
+    "id": "pat-mvgz3a1v",
+    "name": "Paciente Anonimizado [LGPD-3a1v]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-20T17:44:20.899Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-20T17:44:20.899Z",
+    "updatedAt": "2026-10-20T17:44:21.051Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-20T17:44:21.051Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfq0m4w",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 997676531",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-01",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:42:33.871Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:42:33.871Z",
+    "updatedAt": "2026-10-19T20:42:33.871Z"
+  },
+  {
+    "id": "pat-mvfq0m27",
+    "name": "Paciente Anonimizado [LGPD-0m27]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:42:33.775Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:42:33.775Z",
+    "updatedAt": "2026-10-19T20:42:33.944Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:42:33.944Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfpznp3",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 930207363",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-12-10",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:41:49.238Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:41:49.238Z",
+    "updatedAt": "2026-10-19T20:41:49.238Z"
+  },
+  {
+    "id": "pat-mvfpznmf",
+    "name": "Paciente Anonimizado [LGPD-znmf]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:41:49.143Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:41:49.143Z",
+    "updatedAt": "2026-10-19T20:41:49.304Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:41:49.304Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfpyykz",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 986121479",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-12-14",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:41:16.691Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:41:16.691Z",
+    "updatedAt": "2026-10-19T20:41:16.691Z"
+  },
+  {
+    "id": "pat-mvfpyyim",
+    "name": "Paciente Anonimizado [LGPD-yyim]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:41:16.606Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:41:16.606Z",
+    "updatedAt": "2026-10-19T20:41:16.762Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:41:16.762Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfpy5kx",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 984936610",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-02-12",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:40:39.104Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:40:39.104Z",
+    "updatedAt": "2026-10-19T20:40:39.104Z"
+  },
+  {
+    "id": "pat-mvfpy5ii",
+    "name": "Paciente Anonimizado [LGPD-y5ii]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:40:39.018Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:40:39.018Z",
+    "updatedAt": "2026-10-19T20:40:39.180Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:40:39.180Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfpwp93",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 940597419",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-01-25",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:39:31.286Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:39:31.286Z",
+    "updatedAt": "2026-10-19T20:39:31.286Z"
+  },
+  {
+    "id": "pat-mvfpwp6e",
+    "name": "Paciente Anonimizado [LGPD-wp6e]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:39:31.190Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:39:31.190Z",
+    "updatedAt": "2026-10-19T20:39:31.352Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:39:31.352Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfppid5",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 988541338",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-01",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:33:55.768Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:33:55.768Z",
+    "updatedAt": "2026-10-19T20:33:55.768Z"
+  },
+  {
+    "id": "pat-mvfppiap",
+    "name": "Paciente Anonimizado [LGPD-piap]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:33:55.681Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:33:55.681Z",
+    "updatedAt": "2026-10-19T20:33:55.837Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:33:55.837Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfposr2",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 930851976",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-01-14",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:33:22.573Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:33:22.573Z",
+    "updatedAt": "2026-10-19T20:33:22.573Z"
+  },
+  {
+    "id": "pat-mvfposor",
+    "name": "Paciente Anonimizado [LGPD-osor]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:33:22.491Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:33:22.491Z",
+    "updatedAt": "2026-10-19T20:33:22.635Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:33:22.635Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfpof9r",
+    "name": "Clara Meireles Nova",
+    "cpf": "770.046.740-45",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 936793048",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:33:05.103Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:33:05.103Z",
+    "updatedAt": "2026-10-19T20:33:05.154Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvfpkonf",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 975194231",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-15",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:30:10.634Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:30:10.634Z",
+    "updatedAt": "2026-10-19T20:30:10.634Z"
+  },
+  {
+    "id": "pat-mvfpkokv",
+    "name": "Paciente Anonimizado [LGPD-kokv]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:30:10.543Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:30:10.543Z",
+    "updatedAt": "2026-10-19T20:30:10.705Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:30:10.705Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfpk03v",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 914014693",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-08",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:29:38.826Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:29:38.826Z",
+    "updatedAt": "2026-10-19T20:29:38.826Z"
+  },
+  {
+    "id": "pat-mvfpk01g",
+    "name": "Paciente Anonimizado [LGPD-k01g]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:29:38.740Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:29:38.740Z",
+    "updatedAt": "2026-10-19T20:29:38.894Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:29:38.894Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvfpiar4",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 934034013",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-02-22",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:28:19.311Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T20:28:19.311Z",
+    "updatedAt": "2026-10-19T20:28:19.311Z"
+  },
+  {
+    "id": "pat-mvfpiaol",
+    "name": "Paciente Anonimizado [LGPD-iaol]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T20:28:19.221Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T20:28:19.221Z",
+    "updatedAt": "2026-10-19T20:28:19.382Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T20:28:19.382Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvf400qc",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 945950587",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-12-01",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T10:26:14.579Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T10:26:14.579Z",
+    "updatedAt": "2026-10-19T10:26:14.579Z"
+  },
+  {
+    "id": "pat-mvf400nw",
+    "name": "Paciente Anonimizado [LGPD-00nw]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T10:26:14.492Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T10:26:14.492Z",
+    "updatedAt": "2026-10-19T10:26:14.642Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T10:26:14.642Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvf3zdh3",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 987282248",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-12-10",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T10:25:44.439Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T10:25:44.439Z",
+    "updatedAt": "2026-10-19T10:25:44.439Z"
+  },
+  {
+    "id": "pat-mvf3zden",
+    "name": "Paciente Anonimizado [LGPD-zden]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T10:25:44.351Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T10:25:44.351Z",
+    "updatedAt": "2026-10-19T10:25:44.502Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T10:25:44.502Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvf3rwr8",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 997149002",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-01-21",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T10:19:56.180Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T10:19:56.180Z",
+    "updatedAt": "2026-10-19T10:19:56.180Z"
+  },
+  {
+    "id": "pat-mvf3rwoy",
+    "name": "Paciente Anonimizado [LGPD-rwoy]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T10:19:56.098Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T10:19:56.098Z",
+    "updatedAt": "2026-10-19T10:19:56.240Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T10:19:56.240Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvf3bgwj",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 958300252",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-18",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T10:07:09.139Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T10:07:09.139Z",
+    "updatedAt": "2026-10-19T10:07:09.139Z"
+  },
+  {
+    "id": "pat-mvf3bgu2",
+    "name": "Paciente Anonimizado [LGPD-bgu2]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T10:07:09.050Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T10:07:09.050Z",
+    "updatedAt": "2026-10-19T10:07:09.212Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T10:07:09.212Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvf2h8up",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 911135843",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-11-23",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T09:43:39.024Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T09:43:39.024Z",
+    "updatedAt": "2026-10-19T09:43:39.024Z"
+  },
+  {
+    "id": "pat-mvf2h8sf",
+    "name": "Paciente Anonimizado [LGPD-h8sf]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T09:43:38.943Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T09:43:38.943Z",
+    "updatedAt": "2026-10-19T09:43:39.090Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T09:43:39.090Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvf21ll4",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 924922371",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-01-22",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T09:31:29.031Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T09:31:29.031Z",
+    "updatedAt": "2026-10-19T09:31:29.031Z"
+  },
+  {
+    "id": "pat-mvf21lix",
+    "name": "Paciente Anonimizado [LGPD-1lix]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T09:31:28.953Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T09:31:28.953Z",
+    "updatedAt": "2026-10-19T09:31:29.092Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T09:31:29.092Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvf1zuuo",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 956863114",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-01-20",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T09:30:07.728Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-19T09:30:07.728Z",
+    "updatedAt": "2026-10-19T09:30:07.728Z"
+  },
+  {
+    "id": "pat-mvf1zusk",
+    "name": "Paciente Anonimizado [LGPD-zusk]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-19T09:30:07.652Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-19T09:30:07.652Z",
+    "updatedAt": "2026-10-19T09:30:07.795Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-19T09:30:07.795Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdwk9g8",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 959049757",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-29",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T14:10:15.895Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T14:10:15.895Z",
+    "updatedAt": "2026-10-18T14:10:15.895Z"
+  },
+  {
+    "id": "pat-mvdwk9ea",
+    "name": "Paciente Anonimizado [LGPD-k9ea]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T14:10:15.826Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T14:10:15.826Z",
+    "updatedAt": "2026-10-18T14:10:15.953Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T14:10:15.953Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdw0jj2",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 914318145",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-12-11",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:54:55.837Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:54:55.837Z",
+    "updatedAt": "2026-10-18T13:54:55.837Z"
+  },
+  {
+    "id": "pat-mvdw0jh4",
+    "name": "Paciente Anonimizado [LGPD-0jh4]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:54:55.768Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:54:55.768Z",
+    "updatedAt": "2026-10-18T13:54:55.893Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:54:55.893Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdvz3kr",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 932966278",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-12-31",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:53:48.507Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:53:48.507Z",
+    "updatedAt": "2026-10-18T13:53:48.507Z"
+  },
+  {
+    "id": "pat-mvdvz3iw",
+    "name": "Paciente Anonimizado [LGPD-z3iw]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:53:48.440Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:53:48.440Z",
+    "updatedAt": "2026-10-18T13:53:48.558Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:53:48.558Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdvsogd",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 951399727",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-01-15",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:48:48.972Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:48:48.972Z",
+    "updatedAt": "2026-10-18T13:48:48.972Z"
+  },
+  {
+    "id": "pat-mvdvsoeg",
+    "name": "Paciente Anonimizado [LGPD-soeg]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:48:48.904Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:48:48.904Z",
+    "updatedAt": "2026-10-18T13:48:49.024Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:48:49.024Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdvsa7g",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 917573416",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-01-01",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:48:30.508Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:48:30.508Z",
+    "updatedAt": "2026-10-18T13:48:30.508Z"
+  },
+  {
+    "id": "pat-mvdvsa5q",
+    "name": "Paciente Anonimizado [LGPD-sa5q]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:48:30.446Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:48:30.446Z",
+    "updatedAt": "2026-10-18T13:48:30.555Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:48:30.555Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdvmwfy",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 986667481",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-12-15",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:44:19.390Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:44:19.390Z",
+    "updatedAt": "2026-10-18T13:44:19.390Z"
+  },
+  {
+    "id": "pat-mvdvmwe6",
+    "name": "Paciente Anonimizado [LGPD-mwe6]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:44:19.326Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:44:19.326Z",
+    "updatedAt": "2026-10-18T13:44:19.439Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:44:19.439Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdv8ku9",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 915883608",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-01-11",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:33:11.169Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:33:11.169Z",
+    "updatedAt": "2026-10-18T13:33:11.169Z"
+  },
+  {
+    "id": "pat-mvdv8kse",
+    "name": "Paciente Anonimizado [LGPD-8kse]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:33:11.102Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:33:11.102Z",
+    "updatedAt": "2026-10-18T13:33:11.214Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:33:11.214Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdv842w",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 952135550",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-02-10",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:32:49.448Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:32:49.448Z",
+    "updatedAt": "2026-10-18T13:32:49.448Z"
+  },
+  {
+    "id": "pat-mvdv841c",
+    "name": "Paciente Anonimizado [LGPD-841c]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:32:49.392Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:32:49.392Z",
+    "updatedAt": "2026-10-18T13:32:49.491Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:32:49.491Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdv7u78",
+    "name": "Clara Meireles Nova",
+    "cpf": "032.360.035-29",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 962671347",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:32:36.644Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:32:36.644Z",
+    "updatedAt": "2026-10-18T13:32:36.681Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvdv7dpn",
+    "name": "Clara Meireles Nova",
+    "cpf": "312.417.097-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 984367791",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:32:15.275Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:32:15.275Z",
+    "updatedAt": "2026-10-18T13:32:15.308Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvdv71hi",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 926076427",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-17",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:31:59.429Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:31:59.429Z",
+    "updatedAt": "2026-10-18T13:31:59.429Z"
+  },
+  {
+    "id": "pat-mvdv71g5",
+    "name": "Paciente Anonimizado [LGPD-71g5]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:31:59.381Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:31:59.381Z",
+    "updatedAt": "2026-10-18T13:31:59.473Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:31:59.473Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdv6iw4",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 995568232",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2027-03-17",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:31:35.332Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:31:35.332Z",
+    "updatedAt": "2026-10-18T13:31:35.332Z"
+  },
+  {
+    "id": "pat-mvdv6iul",
+    "name": "Paciente Anonimizado [LGPD-6iul]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:31:35.277Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:31:35.277Z",
+    "updatedAt": "2026-10-18T13:31:35.370Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:31:35.370Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdv5oee",
+    "name": "Clara Meireles Nova",
+    "cpf": "939.124.861-66",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 992454981",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:30:55.814Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:30:55.814Z",
+    "updatedAt": "2026-10-18T13:30:55.844Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvdv5aqj",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 932019305",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-11-04",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:30:38.106Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:30:38.106Z",
+    "updatedAt": "2026-10-18T13:30:38.106Z"
+  },
+  {
+    "id": "pat-mvdv5ap3",
+    "name": "Paciente Anonimizado [LGPD-5ap3]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:30:38.055Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:30:38.055Z",
+    "updatedAt": "2026-10-18T13:30:38.146Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:30:38.146Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdv3ck8",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 952272554",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-11-04",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:29:07.160Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:29:07.160Z",
+    "updatedAt": "2026-10-18T13:29:07.160Z"
+  },
+  {
+    "id": "pat-mvdv3ciu",
+    "name": "Paciente Anonimizado [LGPD-3ciu]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:29:07.110Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:29:07.110Z",
+    "updatedAt": "2026-10-18T13:29:07.196Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:29:07.196Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvdubvr6",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 914598694",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-11-04",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:07:45.665Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:07:45.665Z",
+    "updatedAt": "2026-10-18T13:07:45.665Z"
+  },
+  {
+    "id": "pat-mvdubvq1",
+    "name": "Paciente Anonimizado [LGPD-bvq1]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:07:45.625Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:07:45.625Z",
+    "updatedAt": "2026-10-18T13:07:45.697Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:07:45.697Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvduazil",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 970743316",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-11-04",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:07:03.884Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-18T13:07:03.884Z",
+    "updatedAt": "2026-10-18T13:07:03.884Z"
+  },
+  {
+    "id": "pat-mvduazfm",
+    "name": "Paciente Anonimizado [LGPD-azfm]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-18T13:07:03.778Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-18T13:07:03.778Z",
+    "updatedAt": "2026-10-18T13:07:03.963Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-18T13:07:03.963Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvccxh86",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 966593698",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-11-04",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:12:54.006Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-17T12:12:54.006Z",
+    "updatedAt": "2026-10-17T12:12:54.006Z"
+  },
+  {
+    "id": "pat-mvccxh71",
+    "name": "Paciente Anonimizado [LGPD-xh71]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:12:53.965Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-17T12:12:53.965Z",
+    "updatedAt": "2026-10-17T12:12:54.035Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-17T12:12:54.035Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvccwwnl",
+    "name": "Clara Meireles Nova",
+    "cpf": "703.740.731-39",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 995873459",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:12:27.345Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-17T12:12:27.345Z",
+    "updatedAt": "2026-10-17T12:12:27.371Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvccwnkv",
+    "name": "Clara Meireles Nova",
+    "cpf": "764.665.788-36",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 935719138",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:12:15.583Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-17T12:12:15.583Z",
+    "updatedAt": "2026-10-17T12:12:15.606Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvccw7wq",
+    "name": "Clara Meireles Nova",
+    "cpf": "654.749.009-29",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 998245460",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:11:55.274Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-17T12:11:55.274Z",
+    "updatedAt": "2026-10-17T12:11:55.296Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvccub4k",
+    "name": "Clara Meireles Nova",
+    "cpf": "145.711.619-72",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 989569159",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:10:26.132Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-17T12:10:26.132Z",
+    "updatedAt": "2026-10-17T12:10:26.155Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvccss5w",
+    "name": "Mariana Auto Paciente",
+    "phone": "(11) 993484792",
+    "email": "mariana.auto@exemplo.com.br",
+    "birthDate": "1990-01-01",
+    "gender": "F",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "anamnesis": {
+      "chiefComplaint": "Primeira consulta de refração",
+      "lastExamDate": "2026-10-22",
+      "wearsGlasses": false,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": []
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:09:14.900Z",
+      "versao": "1.0",
+      "canal": "interno",
+      "ip": "::ffff:127.0.0.1"
+    },
+    "createdAt": "2026-10-17T12:09:14.900Z",
+    "updatedAt": "2026-10-17T12:09:14.900Z"
+  },
+  {
+    "id": "pat-mvccss52",
+    "name": "Paciente Anonimizado [LGPD-ss52]",
+    "cpf": "000.***.***-00",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(00) 00000-0000",
+    "email": "anonimizado@lgpd.local",
+    "ativo": false,
+    "address": {
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:09:14.870Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-17T12:09:14.870Z",
+    "updatedAt": "2026-10-17T12:09:14.930Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD.",
+    "anonimizado": true,
+    "anonimizadoEm": "2026-10-17T12:09:14.930Z",
+    "anonimizadoPor": "Administrador do Sistema"
+  },
+  {
+    "id": "pat-mvccrhki",
+    "name": "Clara Meireles Nova",
+    "cpf": "029.569.551-01",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 936018778",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta e Urbanista Sênior",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:08:14.514Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-17T12:08:14.514Z",
+    "updatedAt": "2026-10-17T12:08:14.523Z",
+    "notes": "Paciente muito exigente com nitidez para telas de AutoCAD."
+  },
+  {
+    "id": "pat-mvccqoep",
+    "name": "Clara Meireles Nova",
+    "cpf": "226.282.361-84",
+    "birthDate": "1992-08-15",
+    "gender": "F",
+    "phone": "(11) 982126191",
+    "email": "clara.meireles@exemplo.com.br",
+    "ativo": true,
+    "address": {
+      "street": "Alameda Santos",
+      "number": "800",
+      "complement": "",
+      "neighborhood": "Cerqueira César",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01418-002"
+    },
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Arquiteta",
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade de foco no computador ao entardecer.",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [],
+      "currentMedications": "",
+      "allergies": "Rinite"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-10-17T12:07:36.720Z",
+      "versao": "1.0",
+      "ip": "::ffff:127.0.0.1",
+      "canal": "presencial"
+    },
+    "createdAt": "2026-10-17T12:07:36.720Z",
+    "updatedAt": "2026-10-17T12:07:36.720Z"
+  },
+  {
+    "id": "pat-001",
+    "name": "Ana Beatriz Souza",
+    "cpf": "321.456.789-01",
+    "birthDate": "1989-06-14",
+    "gender": "F",
+    "phone": "(11) 99123-4567",
+    "email": "ana.souza@gmail.com",
+    "ativo": true,
+    "healthInsurance": "Unimed Pleno",
+    "profession": "Designer Gráfica",
+    "address": {
+      "street": "Av. Paulista",
+      "number": "1200, Apto 84",
+      "neighborhood": "Bela Vista",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "01310-100"
+    },
+    "anamnesis": {
+      "chiefComplaint": "Cefaleia frontal no fim do expediente e cansaço visual ao trabalhar no computador.",
+      "lastExamDate": "2024-08-10",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [
+        "Enxaqueca"
+      ],
+      "ocularFamilyHistory": [
+        "Miopia materna",
+        "Glaucoma avô paterno"
+      ],
+      "currentMedications": "Dipirona esporádica",
+      "allergies": "Nenhuma relatada"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-02-01T14:30:00.000Z",
+      "versao": "1.0",
+      "canal": "presencial"
+    },
+    "notes": "Costuma passar mais de 10 horas diárias em frente a telas digitais.",
+    "createdAt": "2026-02-01T14:30:00.000Z",
+    "updatedAt": "2026-02-15T11:20:00.000Z"
+  },
+  {
+    "id": "pat-002",
+    "name": "Marcos Vinicius Ribeiro",
+    "cpf": "456.789.012-34",
+    "birthDate": "1975-11-22",
+    "gender": "M",
+    "phone": "(11) 98234-5678",
+    "email": "marcos.v.ribeiro@outlook.com",
+    "ativo": true,
+    "healthInsurance": "Particular",
+    "profession": "Contador",
+    "address": {
+      "street": "Rua Vergueiro",
+      "number": "2040",
+      "neighborhood": "Vila Mariana",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "04102-000"
+    },
+    "anamnesis": {
+      "chiefComplaint": "Braço curto para leitura de notas fiscais e celular. Visão embaçada para perto.",
+      "lastExamDate": "2023-05-18",
+      "wearsGlasses": true,
+      "wearsContactLenses": false,
+      "systemicDiseases": [
+        "Hipertensão controlada"
+      ],
+      "ocularFamilyHistory": [
+        "Presbiopia precoce"
+      ],
+      "currentMedications": "Losartana 50mg",
+      "allergies": "Penicilina"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-01-20T09:15:00.000Z",
+      "versao": "1.0",
+      "canal": "presencial"
+    },
+    "notes": "Interesse em lentes multifocais com corredor amplo e proteção digital.",
+    "createdAt": "2026-01-20T09:15:00.000Z",
+    "updatedAt": "2026-02-10T16:45:00.000Z"
+  },
+  {
+    "id": "pat-003",
+    "name": "Camila Fernandes Lopes",
+    "cpf": "567.890.123-45",
+    "birthDate": "2004-03-30",
+    "gender": "F",
+    "phone": "(11) 97345-6789",
+    "email": "camila.lopes@universidade.edu.br",
+    "ativo": true,
+    "healthInsurance": "Bradesco Saúde",
+    "profession": "Estudante de Engenharia",
+    "address": {
+      "street": "Rua Domingos de Morais",
+      "number": "880",
+      "neighborhood": "Vila Mariana",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "04010-100"
+    },
+    "anamnesis": {
+      "chiefComplaint": "Dificuldade para enxergar lousa e projeções em sala de aula.",
+      "lastExamDate": "2025-01-10",
+      "wearsGlasses": true,
+      "wearsContactLenses": true,
+      "systemicDiseases": [],
+      "ocularFamilyHistory": [
+        "Miopia alta familiar"
+      ],
+      "currentMedications": "Nenhum",
+      "allergies": "Rinite alérgica"
+    },
+    "consentimentoLgpd": {
+      "aceito": true,
+      "dataHora": "2026-02-10T10:00:00.000Z",
+      "versao": "1.0",
+      "canal": "site"
+    },
+    "notes": "Usa lentes de contato gelatinosas descartáveis mensais.",
+    "createdAt": "2026-02-10T10:00:00.000Z",
+    "updatedAt": "2026-02-10T10:00:00.000Z"
+  }
+]

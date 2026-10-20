@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import { PushNotificationManager } from '../pwa/PushNotificationManager';
 
 interface TopbarAdminProps {
   onOpenMobileMenu: () => void;
@@ -110,6 +111,9 @@ export const TopbarAdmin: React.FC<TopbarAdminProps> = ({ onOpenMobileMenu }) =>
             </>
           )}
         </div>
+
+        {/* Gerenciador de Push Notifications (Prompt 15) */}
+        <PushNotificationManager />
 
         {/* Notificações */}
         <div className="relative">

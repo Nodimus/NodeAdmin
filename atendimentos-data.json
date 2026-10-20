@@ -1,0 +1,2515 @@
+[
+  {
+    "id": "ate-mvh0z0rh",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBO 3223-05 • CBOO",
+    "data": "2026-10-20",
+    "horario": "18:37",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-20T18:37:01.469Z",
+    "finalizadoEm": "2026-10-20T18:37:01.469Z",
+    "atualizadoEm": "2026-10-20T18:37:01.469Z",
+    "receitaId": "rec-mvh0z0sd"
+  },
+  {
+    "id": "ate-mvh0wwpt",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBO 3223-05 • CBOO",
+    "data": "2026-10-20",
+    "horario": "18:35",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-20T18:35:22.913Z",
+    "finalizadoEm": "2026-10-20T18:35:22.913Z",
+    "atualizadoEm": "2026-10-20T18:35:22.913Z",
+    "receitaId": "rec-mvh0wwqr"
+  },
+  {
+    "id": "ate-mvh0qda9",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBO 3223-05 • CBOO",
+    "data": "2026-10-20",
+    "horario": "18:30",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-20T18:30:17.793Z",
+    "finalizadoEm": "2026-10-20T18:30:17.793Z",
+    "atualizadoEm": "2026-10-20T18:30:17.793Z",
+    "receitaId": "rec-mvh0qdba"
+  },
+  {
+    "id": "ate-mvgz4ird",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-20",
+    "horario": "17:45",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-20T17:45:18.841Z",
+    "finalizadoEm": "2026-10-20T17:45:18.841Z",
+    "atualizadoEm": "2026-10-20T17:45:18.841Z",
+    "receitaId": "rec-mvgz4is9"
+  },
+  {
+    "id": "ate-mvgz3a6z",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-20",
+    "horario": "17:44",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-20T17:44:21.083Z",
+    "finalizadoEm": "2026-10-20T17:44:21.083Z",
+    "atualizadoEm": "2026-10-20T17:44:21.083Z",
+    "receitaId": "rec-mvgz3a81"
+  },
+  {
+    "id": "ate-mvfq0m7y",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:42",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:42:33.982Z",
+    "finalizadoEm": "2026-10-19T20:42:33.982Z",
+    "atualizadoEm": "2026-10-19T20:42:33.982Z",
+    "receitaId": "rec-mvfq0m8v"
+  },
+  {
+    "id": "ate-mvfpznrs",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:41",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:41:49.336Z",
+    "finalizadoEm": "2026-10-19T20:41:49.336Z",
+    "atualizadoEm": "2026-10-19T20:41:49.336Z",
+    "receitaId": "rec-mvfpznsr"
+  },
+  {
+    "id": "ate-mvfpyyny",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:41",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:41:16.798Z",
+    "finalizadoEm": "2026-10-19T20:41:16.798Z",
+    "atualizadoEm": "2026-10-19T20:41:16.798Z",
+    "receitaId": "rec-mvfpyyou"
+  },
+  {
+    "id": "ate-mvfpy5ny",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:40",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:40:39.214Z",
+    "finalizadoEm": "2026-10-19T20:40:39.214Z",
+    "atualizadoEm": "2026-10-19T20:40:39.214Z",
+    "receitaId": "rec-mvfpy5ow"
+  },
+  {
+    "id": "ate-mvfpwpbt",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:39",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:39:31.385Z",
+    "finalizadoEm": "2026-10-19T20:39:31.385Z",
+    "atualizadoEm": "2026-10-19T20:39:31.385Z",
+    "receitaId": "rec-mvfpwpcp"
+  },
+  {
+    "id": "ate-mvfppifw",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:33",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:33:55.868Z",
+    "finalizadoEm": "2026-10-19T20:33:55.868Z",
+    "atualizadoEm": "2026-10-19T20:33:55.868Z",
+    "receitaId": "rec-mvfppigt"
+  },
+  {
+    "id": "ate-mvfpostl",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:33",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:33:22.665Z",
+    "finalizadoEm": "2026-10-19T20:33:22.665Z",
+    "atualizadoEm": "2026-10-19T20:33:22.665Z",
+    "receitaId": "rec-mvfposuf"
+  },
+  {
+    "id": "ate-mvfpkoqb",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:30",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:30:10.739Z",
+    "finalizadoEm": "2026-10-19T20:30:10.739Z",
+    "atualizadoEm": "2026-10-19T20:30:10.739Z",
+    "receitaId": "rec-mvfpkor9"
+  },
+  {
+    "id": "ate-mvfpk06p",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:29",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:29:38.929Z",
+    "finalizadoEm": "2026-10-19T20:29:38.929Z",
+    "atualizadoEm": "2026-10-19T20:29:38.929Z",
+    "receitaId": "rec-mvfpk07r"
+  },
+  {
+    "id": "ate-mvfpiau6",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "20:28",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T20:28:19.422Z",
+    "finalizadoEm": "2026-10-19T20:28:19.422Z",
+    "atualizadoEm": "2026-10-19T20:28:19.422Z",
+    "receitaId": "rec-mvfpiav2"
+  },
+  {
+    "id": "ate-mvf400sy",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "10:26",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T10:26:14.674Z",
+    "finalizadoEm": "2026-10-19T10:26:14.674Z",
+    "atualizadoEm": "2026-10-19T10:26:14.674Z",
+    "receitaId": "rec-mvf400tt"
+  },
+  {
+    "id": "ate-mvf3zdjr",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "10:25",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T10:25:44.535Z",
+    "finalizadoEm": "2026-10-19T10:25:44.535Z",
+    "atualizadoEm": "2026-10-19T10:25:44.535Z",
+    "receitaId": "rec-mvf3zdkl"
+  },
+  {
+    "id": "ate-mvf3rwts",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "10:19",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T10:19:56.272Z",
+    "finalizadoEm": "2026-10-19T10:19:56.272Z",
+    "atualizadoEm": "2026-10-19T10:19:56.272Z",
+    "receitaId": "rec-mvf3rwun"
+  },
+  {
+    "id": "ate-mvf3bgzi",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "10:07",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T10:07:09.246Z",
+    "finalizadoEm": "2026-10-19T10:07:09.246Z",
+    "atualizadoEm": "2026-10-19T10:07:09.246Z",
+    "receitaId": "rec-mvf3bh0j"
+  },
+  {
+    "id": "ate-mvf2h8xc",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "09:43",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T09:43:39.120Z",
+    "finalizadoEm": "2026-10-19T09:43:39.120Z",
+    "atualizadoEm": "2026-10-19T09:43:39.120Z",
+    "receitaId": "rec-mvf2h8y6"
+  },
+  {
+    "id": "ate-mvf21lnm",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "09:31",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T09:31:29.122Z",
+    "finalizadoEm": "2026-10-19T09:31:29.122Z",
+    "atualizadoEm": "2026-10-19T09:31:29.122Z",
+    "receitaId": "rec-mvf21loh"
+  },
+  {
+    "id": "ate-mvf1zuxe",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-19",
+    "horario": "09:30",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-19T09:30:07.826Z",
+    "finalizadoEm": "2026-10-19T09:30:07.826Z",
+    "atualizadoEm": "2026-10-19T09:30:07.826Z",
+    "receitaId": "rec-mvf1zuy9"
+  },
+  {
+    "id": "ate-mvdwk9ij",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "14:10",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T14:10:15.979Z",
+    "finalizadoEm": "2026-10-18T14:10:15.979Z",
+    "atualizadoEm": "2026-10-18T14:10:15.979Z",
+    "receitaId": "rec-mvdwk9j9"
+  },
+  {
+    "id": "ate-mvdw0jlb",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:54",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:54:55.919Z",
+    "finalizadoEm": "2026-10-18T13:54:55.919Z",
+    "atualizadoEm": "2026-10-18T13:54:55.919Z",
+    "receitaId": "rec-mvdw0jm4"
+  },
+  {
+    "id": "ate-mvdvz3mx",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:53",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:53:48.585Z",
+    "finalizadoEm": "2026-10-18T13:53:48.585Z",
+    "atualizadoEm": "2026-10-18T13:53:48.585Z",
+    "receitaId": "rec-mvdvz3nl"
+  },
+  {
+    "id": "ate-mvdvsoij",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:48",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:48:49.051Z",
+    "finalizadoEm": "2026-10-18T13:48:49.051Z",
+    "atualizadoEm": "2026-10-18T13:48:49.051Z",
+    "receitaId": "rec-mvdvsoj8"
+  },
+  {
+    "id": "ate-mvdvsa9f",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:48",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:48:30.579Z",
+    "finalizadoEm": "2026-10-18T13:48:30.579Z",
+    "atualizadoEm": "2026-10-18T13:48:30.579Z",
+    "receitaId": "rec-mvdvsaa3"
+  },
+  {
+    "id": "ate-mvdvmwi0",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:44",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:44:19.464Z",
+    "finalizadoEm": "2026-10-18T13:44:19.464Z",
+    "atualizadoEm": "2026-10-18T13:44:19.464Z",
+    "receitaId": "rec-mvdvmwim"
+  },
+  {
+    "id": "ate-mvdv8kw8",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:33",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:33:11.240Z",
+    "finalizadoEm": "2026-10-18T13:33:11.240Z",
+    "atualizadoEm": "2026-10-18T13:33:11.240Z",
+    "receitaId": "rec-mvdv8kwt"
+  },
+  {
+    "id": "ate-mvdv844s",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:32",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:32:49.516Z",
+    "finalizadoEm": "2026-10-18T13:32:49.516Z",
+    "atualizadoEm": "2026-10-18T13:32:49.516Z",
+    "receitaId": "rec-mvdv845b"
+  },
+  {
+    "id": "ate-mvdv71jc",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:31",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:31:59.496Z",
+    "finalizadoEm": "2026-10-18T13:31:59.496Z",
+    "atualizadoEm": "2026-10-18T13:31:59.496Z",
+    "receitaId": "rec-mvdv71jt"
+  },
+  {
+    "id": "ate-mvdv6iy8",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:31",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:31:35.408Z",
+    "finalizadoEm": "2026-10-18T13:31:35.408Z",
+    "atualizadoEm": "2026-10-18T13:31:35.408Z",
+    "receitaId": "rec-mvdv6iyp"
+  },
+  {
+    "id": "ate-mvdv5ash",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "user-opto-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP",
+    "data": "2026-10-18",
+    "horario": "13:30",
+    "anamnese": {
+      "motivoConsulta": "Avaliação de rotina anual",
+      "queixaPrincipal": "Cansaço visual ao fim do dia",
+      "historicoVisual": "",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "doencasSistemicas": "",
+      "alergias": "",
+      "medicamentosUso": "",
+      "antecedentesFamiliares": ""
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/40",
+        "oe": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 180,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 175,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 180
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 175
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Sopro de ar / Aplanação"
+    },
+    "observacoes": "Segmento anterior calmo, sem alterações córneo-conjuntivais.",
+    "condutaDiagnostica": "Prescrição de lentes oftálmicas monofocais com filtro blue control.",
+    "status": "finalizado",
+    "criadoEm": "2026-10-18T13:30:38.177Z",
+    "finalizadoEm": "2026-10-18T13:30:38.177Z",
+    "atualizadoEm": "2026-10-18T13:30:38.177Z",
+    "receitaId": "rec-mvdv5asy"
+  },
+  {
+    "id": "ate-001",
+    "pacienteId": "pat-001",
+    "pacienteNome": "Ana Beatriz Souza",
+    "pacienteCpf": "321.456.789-01",
+    "pacienteTelefone": "(11) 99123-4567",
+    "optometristaId": "optometrista-01",
+    "optometristaNome": "Dr. Roberto Viana",
+    "registroOptometrista": "CBOO 14.892-SP | CBO 3223-05",
+    "data": "2026-10-15",
+    "horario": "16:00",
+    "anamnese": {
+      "queixaPrincipal": "Cansaço visual severo e cefaleia frontal após horas no computador.",
+      "usaOculos": true,
+      "usaLentesContato": false,
+      "alergias": "Rinite sazonal"
+    },
+    "acuidadeVisual": {
+      "sc": {
+        "od": "20/60",
+        "oe": "20/50",
+        "binocular": "20/40"
+      },
+      "cc": {
+        "od": "20/20",
+        "oe": "20/20",
+        "binocular": "20/15"
+      }
+    },
+    "refracao": {
+      "od": {
+        "esferico": -1.75,
+        "cilindrico": -0.75,
+        "eixo": 175,
+        "dnp": 31,
+        "acuidade": "20/20"
+      },
+      "oe": {
+        "esferico": -1.5,
+        "cilindrico": -0.5,
+        "eixo": 5,
+        "dnp": 31.5,
+        "acuidade": "20/20"
+      },
+      "dpTotal": 62.5
+    },
+    "ceratometria": {
+      "od": {
+        "k1": 43.25,
+        "k2": 44,
+        "eixo": 175
+      },
+      "oe": {
+        "k1": 43.5,
+        "k2": 44.25,
+        "eixo": 5
+      }
+    },
+    "pressaoIntraocular": {
+      "od": 14,
+      "oe": 15,
+      "metodo": "Tonometria de Aplanação"
+    },
+    "observacoes": "Meios dióptricos transparentes. Reflexos pupilares fotomotor direto e consensual normais.",
+    "condutaDiagnostica": "Miopia composta com astigmatismo a favor da regra bilateral. Prescrição de óculos monofocais com filtro de luz azul.",
+    "status": "finalizado",
+    "receitaId": "rec-001",
+    "criadoEm": "2026-10-15T16:00:00.000Z",
+    "finalizadoEm": "2026-10-15T16:45:00.000Z",
+    "atualizadoEm": "2026-10-15T16:45:00.000Z"
+  }
+]

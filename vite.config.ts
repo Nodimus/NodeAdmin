@@ -1,11 +1,77 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
+import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [
+      react(),
+      tailwindcss(),
+      VitePWA({
+        registerType: 'autoUpdate',
+        includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'icon.svg', 'sw-push-handler.js'],
+        manifest: false, // Gerenciado via manifest.webmanifest e rota dinâmica
+        workbox: {
+          importScripts: ['/sw-push-handler.js'],
+          globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2}'],
+          navigateFallback: '/index.html',
+          navigateFallbackDenylist: [/^\/api/],
+          runtimeCaching: [
+            {
+              urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'google-fonts-cache',
+                expiration: {
+                  maxEntries: 10,
+                  maxAgeSeconds: 60 * 60 * 24 * 365,
+                },
+                cacheableResponse: {
+                  statuses: [0, 200],
+                },
+              },
+            },
+            {
+              urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'gstatic-fonts-cache',
+                expiration: {
+                  maxEntries: 10,
+                  maxAgeSeconds: 60 * 60 * 24 * 365,
+                },
+                cacheableResponse: {
+                  statuses: [0, 200],
+                },
+              },
+            },
+            // REGRA OBRIGATÓRIA PROMPT 14: Nunca armazene dados de pacientes ou financeiros no cache
+            {
+              urlPattern: /^\/api\/admin\/(pacientes|financeiro|atendimentos|receitas|auditoria|usuarios).*/i,
+              handler: 'NetworkOnly',
+            },
+            // Demais chamadas de API com rede primeiro (NetworkFirst)
+            {
+              urlPattern: /^\/api\/.*/i,
+              handler: 'NetworkFirst',
+              options: {
+                cacheName: 'api-general-network-first',
+                networkTimeoutSeconds: 3,
+                cacheableResponse: {
+                  statuses: [200],
+                },
+              },
+            },
+          ],
+        },
+        devOptions: {
+          enabled: true,
+          type: 'module',
+        },
+      }),
+    ],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
